@@ -8,39 +8,38 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Fira+Mono:wght@200..700&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="static/mainPageStyle.css">
+    <link rel="stylesheet" href="/static/mainPageStyle.css">
     <title>Главная</title>
 </head>
 <body>
     <header>
-        <h2 class="namePage">Explore</h2>
+        <h2 class="namePage">Отправляйтесь в путешествие вместе с нашим приложением</h2>
         <form action="" method="get">
-            <input name="s" placeholder="Искать..." type="search">
-            <button type="submit">Поиск</button>
+            <input name="s" placeholder="Поиск места..." type="search">
+            <button class="search-place-button" type="submit"><img src="static/searchIcon.png" alt=""></button>
         </form>
-        <img src="#" alt="">
     </header>
 
     <main>
         <section>
-            <h3>Категории</h3>
-            <ul>
-                <a href=""><img src="" alt="" width="50px" height="50px">Активности</a>
-                <a href=""><img src="#" alt="" width="50px" height="50px">Развлечения</a>
-                <a href=""><img src="#" alt="" width="50px" height="50px">Отели</a>
-                <a href=""><img src="#" alt="" width="50px" height="50px">Торговые центры</a>
+            <h3 class="label-section-categories">Категории</h3>
+            <ul class="categories">
+                <a class="category-item category-activity" href="">Активности</a>
+                <a class="category-item category-entertainment" href="">Развлечения</a>
+                <a class="category-item category-hotels" href="">Отели</a>
+                <a class="category-item category-malls" href="">Торговые центры</a>
             </ul>
         </section>
 
         <section>
             <h3>Best Place</h3>
             <p>See all</p>
-            <a href="https://kaioorg.github.io/TripTreck/PageAboutMe"><button type="button">Нажми</button></a>
             <ul class="best-places-list">
                 <li class="best-places-items">
                     <img class="imagesa" src="/static/8s897va897yvayva.jpeg" width="300" alt="">
                     <p class="text-best-place1">Парк Якутова</p>
                 </li>
+            </ul>
         </section>
     </main>
 
