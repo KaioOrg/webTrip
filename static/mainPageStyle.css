@@ -1,18 +1,92 @@
 *{
     /*border: 1px solid  black; */
+    font-family: "Fira Mono", monospace;
 }
 
-body{
-    font-family: "Oswald", sans-serif, monospace;
-}
-
-.namePage{
-    margin: 0;
+a{
+    text-decoration: none;
 }
 
 .mainPage{
-    margin-left: 20px;
-    margin-right: 20px;
+    margin: 0 20px;
+}
+
+.namePage{
+    width: 250px;
+    font-weight: 400;
+    margin-top: 0;
+    margin-bottom: 30px;
+}
+
+form{
+    display: flex;
+    margin-bottom: 30px;
+}
+
+input{
+    width: 275px;
+    height: 40px;
+    color: #cccccc;
+    padding-left: 20px;
+    font-size: 14px;
+    border: 1px solid #eeeeee;
+    border-radius: 5px;
+}
+
+.search-place-button{
+    margin-left: 15px;
+    padding: 0;
+    border: transparent;
+    background-color: transparent;
+}
+
+.label-section-categories{
+    margin-top: 0;
+    margin-bottom: 20px;
+}
+
+.categories{
+    padding-left: 0;
+    justify-items: center;
+    display: flex;
+}
+
+.category-item{
+    padding-left: 15px;
+    color: #141B41;
+    font-size: 14px;
+    text-align: center;
+    font-weight: 350;
+    display: grid;
+    row-gap: 24px;
+    justify-items: center;
+}
+
+.category-item::before{
+    content: "";
+    width: 60px;
+    height: 60px;
+    border-radius: 6px;
+    background-color: #F7F8FD;
+    background-size: 36px 36px;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.category-activity::before{
+    background-image: url("activityIcon.png");
+}
+
+.category-entertainment::before{
+    background-image: url("entartainmentIcon2.png");
+}
+
+.category-hotels::before{
+    background-image: url("hotelIcon.png");
+}
+
+.category-malls::before{
+    background-image: url("mallsIcon.png");
 }
 
 .dd{
@@ -22,6 +96,7 @@ body{
 .imagesa{
     width: 295px;
     height: 180px;
+    color: #fafafa;
     border-radius: 18px;
 }
 
@@ -37,5 +112,4 @@ body{
     bottom: 80px;
     position: absolute;
     letter-spacing: 2px;
-    text-shadow: 0 0 7px black;
 }
