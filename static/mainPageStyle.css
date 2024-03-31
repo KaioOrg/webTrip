@@ -15,9 +15,9 @@ li{
         margin: 0 20px;
     }
 
-
     .namePage{
         width: 300px;
+        font-size: 18px;
         font-weight: 400;
         margin-top: 0;
         margin-bottom: 30px;
@@ -104,5 +104,23 @@ li{
         bottom: 80px;
         position: absolute;
         letter-spacing: 2px;
+    }
+
+    .footer-main-page{
+        display: flex;
+	    flex-direction: column;
+	    min-height: 100%;
+    }
+
+    .footer-list{
+        display: grid;
+        grid-template-columns: repeat(5,1fr);
+        gap: 30px;
+        border-radius: 20px;
+        box-shadow: 0 16px 20px 0 rgba(20, 27, 65, 0.05);
+    }
+
+    .footer-icon{
+        width: 25px;
     }
 }
