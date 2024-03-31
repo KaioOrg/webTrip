@@ -1,0 +1,30 @@
+.mainPage{
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.dd{
+    position: relative;
+    width: 300px;
+}
+
+.imagesa{
+    width: 295px;
+    height: 180px;
+    border-radius: 18px;
+}
+
+.text-best-place{
+    width: 150px;
+    height: 20px;
+    color: white;
+    padding: 120px 128px 20px 14px;
+    margin: 0;
+    bottom: 10px;
+    position: absolute;
+    font-size: 20px;
+    font-weight: 400;
+    letter-spacing: 2px;
+    text-shadow: 0 0 7px black;
+    font-family: "Oswald", sans-serif, monospace;
+}
