@@ -6,94 +6,103 @@ a{
     text-decoration: none;
 }
 
-.mainPage{
-    margin: 0 20px;
-}
-
-
-.namePage{
-    width: 300px;
-    font-weight: 400;
-    margin-top: 0;
-    margin-bottom: 30px;
-}
-
-form{
-    display: flex;
-    margin-bottom: 30px;
-}
-
-input{
-    width: 275px;
-    height: 40px;
-    color: #cccccc;
-    padding-left: 20px;
-    font-size: 14px;
-    border: 1px solid #eeeeee;
-    border-radius: 5px;
-}
-
-.search-place-button{
-    margin-left: 15px;
-    padding: 0;
-    border: transparent;
-    background-color: transparent;
-}
-
-.label-section-categories{
-    margin-top: 0;
-    font-weight: 400;
-    font-size: 20px;
-    margin-bottom: 20px;
-}
-
-.categories{
-    padding-left: 0;
-    justify-items: center;
-    display: flex;
+li{
     list-style-type: none;
 }
 
-.category-item{
-    padding-left: 15px;
-    color: #141B41;
-    font-size: 14px;
-    text-align: center;
-    font-weight: 350;
-    display: grid;
-    row-gap: 15px;
-    justify-items: center;
-}
+@media (max-width: 480px) {
+    .mainPage{
+        margin: 0 20px;
+    }
 
-.icon-category{
-    width: 40px;
-    height: 40px;
-    border: 5px solid #F7F8FD;
-    border-radius: 6px;
-    background-color: #F7F8FD;
-}
 
-.dd{
-    position: relative;
-}
+    .namePage{
+        width: 300px;
+        font-weight: 400;
+        margin-top: 0;
+        margin-bottom: 30px;
+        color: #141B41;
+    }
 
-.imagesa{
-    width: 295px;
-    height: 180px;
-    color: #fafafa;
-    border-radius: 18px;
-}
+    form{
+        display: flex;
+        margin-bottom: 30px;
+    }
 
-.best-places-items{
-    font-size: 20px;
-    font-weight: 400;
-}
+    input{
+        width: 275px;
+        height: 40px;
+        color: #cccccc;
+        padding-left: 20px;
+        font-size: 14px;
+        border: 1px solid #eeeeee;
+        border-radius: 5px;
+    }
 
-.text-best-place1{
-    color: white;
-    padding-left: 10px;
-    margin: 0;
-    bottom: 80px;
-    position: absolute;
-    letter-spacing: 2px;
+    .search-place-button{
+        margin-left: 15px;
+        padding: 0;
+        border: transparent;
+        background-color: transparent;
+    }
+
+    .label-section-categories{
+        margin-top: 0;
+        font-weight: 400;
+        font-size: 20px;
+        margin-bottom: 20px;
+        color: #141B41;
+    }
+
+    .categories{
+        padding-left: 0;
+        justify-items: center;
+        display: flex;
+        overflow-x: scroll;
+    }
+
+    .category-item{
+        width: 100px;
+        padding-left: 15px;
+        color: #141B41;
+        font-size: 14px;
+        text-align: center;
+        font-weight: 350;
+        display: grid;
+        row-gap: 15px;
+        justify-items: center;
+    }
+
+    .icon-category{
+        width: 40px;
+        height: 40px;
+        border: 5px solid #F7F8FD;
+        border-radius: 6px;
+        background-color: #F7F8FD;
+    }
+
+    .dd{
+        position: relative;
+    }
+
+    .imagesa{
+        width: 295px;
+        height: 180px;
+        color: #fafafa;
+        border-radius: 18px;
+    }
+
+    .best-places-items{
+        font-size: 20px;
+        font-weight: 400;
+    }
+
+    .text-best-place1{
+        color: white;
+        padding-left: 10px;
+        margin: 0;
+        bottom: 80px;
+        position: absolute;
+        letter-spacing: 2px;
+    }
 }
