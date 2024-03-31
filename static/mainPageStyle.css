@@ -1,3 +1,15 @@
+*{
+    /*border: 1px solid  black; */
+}
+
+body{
+    font-family: "Oswald", sans-serif, monospace;
+}
+
+.namePage{
+    margin: 0;
+}
+
 .mainPage{
     margin-left: 20px;
     margin-right: 20px;
@@ -5,7 +17,6 @@
 
 .dd{
     position: relative;
-    width: 300px;
 }
 
 .imagesa{
@@ -14,17 +25,17 @@
     border-radius: 18px;
 }
 
-.text-best-place{
-    width: 150px;
-    height: 20px;
-    color: white;
-    padding: 120px 128px 20px 14px;
-    margin: 0;
-    bottom: 10px;
-    position: absolute;
+.best-places-items{
     font-size: 20px;
     font-weight: 400;
+}
+
+.text-best-place1{
+    color: white;
+    padding-left: 10px;
+    margin: 0;
+    bottom: 80px;
+    position: absolute;
     letter-spacing: 2px;
     text-shadow: 0 0 7px black;
-    font-family: "Oswald", sans-serif, monospace;
 }

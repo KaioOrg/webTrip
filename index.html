@@ -8,12 +8,12 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="/mainPageStyle.css">
+    <link rel="stylesheet" href="/static/mainPageStyle.css">
     <title>Главная</title>
 </head>
 <body>
     <header>
-        <h2>Explore</h2>
+        <h2 class="namePage">Explore</h2>
         <form action="" method="get">
             <input name="s" placeholder="Искать..." type="search">
             <button type="submit">Поиск</button>
@@ -35,28 +35,12 @@
         <section>
             <h3>Best Place</h3>
             <p>See all</p>
-
             <a href="https://kaioorg.github.io/TripTreck/PageAboutMe"><button type="button">Нажми</button></a>
-
-            <article class="dd">
-                <img class="imagesa" src="/8s897va897yvayva.jpeg" alt="">
-                <p class="text-best-place">Парк Якутова</p>
-            </article>
-
-            <article class="dd">
-                <img class="imagesa" src="/8s897va897yvayva.jpeg" alt="">
-                <p class="text-best-place">Парк Якутова</p>
-            </article>
-
-            <article class="dd">
-                <img class="imagesa" src="/8s897va897yvayva.jpeg" alt="">
-                <p class="text-best-place">Парк Якутова</p>
-            </article>
-
-            <article class="dd">
-                <img class="imagesa" src="/8s897va897yvayva.jpeg" alt="">
-                <p class="text-best-place">Парк Якутова</p>
-            </article>
+            <ul class="best-places-list">
+                <li class="best-places-items">
+                    <img class="imagesa" src="/static/8s897va897yvayva.jpeg" width="300" alt="">
+                    <p class="text-best-place1">Парк Якутова</p>
+                </li>
         </section>
     </main>
 
