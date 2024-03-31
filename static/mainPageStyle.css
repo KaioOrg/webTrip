@@ -1,5 +1,4 @@
-*{
-    /*border: 1px solid  black; */
+body{
     font-family: "Fira Mono", monospace;
 }
 
@@ -10,6 +9,7 @@ a{
 .mainPage{
     margin: 0 20px;
 }
+
 
 .namePage{
     width: 300px;
@@ -51,6 +51,7 @@ input{
     padding-left: 0;
     justify-items: center;
     display: flex;
+    list-style-type: none;
 }
 
 .category-item{
@@ -60,35 +61,16 @@ input{
     text-align: center;
     font-weight: 350;
     display: grid;
-    row-gap: 24px;
+    row-gap: 15px;
     justify-items: center;
 }
 
-.category-item::before{
-    content: "";
-    width: 60px;
-    height: 60px;
+.icon-category{
+    width: 40px;
+    height: 40px;
+    border: 5px solid #F7F8FD;
     border-radius: 6px;
     background-color: #F7F8FD;
-    background-size: 36px 36px;
-    background-position: center;
-    background-repeat: no-repeat;
-}
-
-.category-activity::before{
-    background-image: url("activityIcon.png");
-}
-
-.category-entertainment::before{
-    background-image: url("entartainmentIcon2.png");
-}
-
-.category-hotels::before{
-    background-image: url("hotelIcon.png");
-}
-
-.category-malls::before{
-    background-image: url("mallsIcon.png");
 }
 
 .dd{
