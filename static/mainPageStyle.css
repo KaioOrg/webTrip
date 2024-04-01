@@ -84,28 +84,45 @@ li{
         background-color: #F7F8FD;
     }
 
-    .dd{
+    .hot-places{
         position: relative;
     }
 
-    .imagesa{
-        width: 295px;
-        height: 180px;
-        color: #fafafa;
-        border-radius: 18px;
+    .name-hot-places{
+        margin-top: 0;
+        font-weight: 400;
+        font-size: 20px;
+        margin-bottom: 20px;
+        color: #141B41;
     }
 
-    .best-places-items{
+    .text-see-all-places{
+        right: 0;
+        position: absolute;
+        top: 5px;
+        margin-top: 0;
+        margin-bottom: 20px;
+        color: #cccccc;
+    }
+
+    .hot-places-item{
         font-size: 20px;
         font-weight: 400;
     }
 
-    .text-best-place1{
+    .image-place{
+        width: 295px;
+        height: 180px;
+        border-radius: 18px;
+    }
+
+    .text-name-place{
         color: white;
         padding-left: 10px;
         margin: 0;
         bottom: 80px;
         position: absolute;
+        font-size: 20px;
         letter-spacing: 2px;
     }
 
