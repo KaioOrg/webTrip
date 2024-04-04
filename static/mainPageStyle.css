@@ -10,11 +10,11 @@ li{
     list-style-type: none;
 }
 
-@media (max-width: 425px) {
-    .mainPage{
-        margin: 0 10px;
-    }
+.mainPage{
+    margin: 0 10px;
+}
 
+@media (max-width: 425px) {
     .namePage{
         width: 300px;
         font-size: 1.125rem;
@@ -99,11 +99,15 @@ li{
     }
 
     .text-see-all-places{
-        margin-top: 0;
-        top: 5px;
+        margin: 0;
+        top: 0;
         right: 0;
+        font-size: 14px;
         position: absolute;
-        color: #cccccc;
+        border: 1px solid #72727E;
+        background-color: transparent;
+        border-radius: 5px;
+        padding: 5px 10px;
     }
 
     .hot-places-list{
@@ -244,6 +248,73 @@ li{
         margin-bottom: 15px;
     }
 
+    .text-see-all-places{
+        margin: 0;
+        top: 0;
+        right: 0;
+        font-size: 12px;
+        border-radius: 5px;
+        padding: 3px 8px;
+    }
+
+    .hot-places-list{
+        padding: 0;
+    }
+
+    .hot-places-item{
+        padding-right: 20px;
+    }
+
+    .image-place{
+        background: linear-gradient(to top, rgba(0, 0, 0, 0.85), transparent);
+    }
+
+
+    .first-image-place{
+        width: 295px;
+        height: 180px;
+        border-radius: 18px;
+    }
+
+    .second-image-place{
+        width: 295px;
+        height: 180px;
+        border-radius: 18px;
+    }
+
+    .third-image-place{
+        width: 295px;
+        height: 180px;
+        border-radius: 18px;
+    }
+
+    .fourth-image-place{
+        width: 295px;
+        height: 180px;
+        border-radius: 18px;
+    }
+
+    .text-name-place{
+        font-size: 16px;
+        margin-top: 100px;
+        padding-left: 15px;
+        display: block;
+    }
+
+    .score-text{
+        font-size: 14px;
+        margin-top: 0;
+        padding-left: 15px;
+        padding-top: 5px;
+        opacity: 0.8;
+    }
+
+    .icon-loc-place{
+        background-size: 15px 15px;
+        width: 20px;
+        height: 20px;
+    }
+
     .footer-list{
         gap: 20px;
         width: 300px;
@@ -265,33 +336,146 @@ li{
 }
 
 @media (max-width: 285px){
+
     .namePage{
-        width: 300px;
-        font-size: 1rem;
+        width: 250px;
+        font-size: 14px;
         font-weight: 500;
-        margin-top: 100px;
+        margin-top: 50px;
         margin-bottom: 30px;
         color: #141B41;
     }
 
-    .footer-main-page{
-        position: fixed;
-        bottom: 0;
-        background-color: white;
+    form{
+        margin-bottom: 27px;
+        margin-top: 0;
+        width: 230px;
+    }
+
+    input{
+        width: 275px;
+        height: 30px;
+        padding-left: 15px;
+        font-size: 12px;
+        border-radius: 5px;
+    }
+
+    .search-place-button{
+        margin-left: 10px;
+        padding: 0;
+        width: 20px;
+    }
+
+    .search-icon-image{
+        width: 30px;
     }
 
     .label-section-categories{
-        font-size: 16px;
+        margin-top: 0;
+        font-size: 12px;
+        margin-bottom: 20px;
+    }
+
+    .categories{
+        padding-left: 0;
+        margin-top: 0;
+        margin-bottom: 25px;
+    }
+
+    .category-item{
+        width: 85px;
+        padding-left: 10px;
+        font-size: 10px;
+        font-weight: 350;
+        row-gap: 10px;
+    }
+
+    .icon-category{
+        width: 40px;
+        height: 40px;
+        border-radius: 6px;
+    }
+
+    .name-hot-places{
+        margin-bottom: 20px;
+    }
+
+    .text-see-all-places{
+        margin: 0;
+        font-size: 10px;
+    }
+
+    .hot-places-item{
+        padding-right: 20px;
+    }
+
+    .image-place{
+        background: linear-gradient(to top, rgba(0, 0, 0, 0.85), transparent);
+    }
+
+
+    .first-image-place{
+        width: 255px;
+        height: 170px;
+        border-radius: 18px;
+    }
+
+    .second-image-place{
+        width: 255px;
+        height: 170px;
+        border-radius: 18px;
+    }
+
+    .third-image-place{
+        width: 255px;
+        height: 170px;
+        border-radius: 18px;
+    }
+
+    .fourth-image-place{
+        width: 255px;
+        height: 170px;
+        border-radius: 18px;
+    }
+
+    .text-name-place{
+        font-size: 12px;
+        margin-top: 100px;
+        padding-left: 15px;
+        display: block;
+    }
+
+    .score-text{
+        font-size: 12px;
+        margin-top: 0;
+        padding-left: 15px;
+        padding-top: 5px;
+        opacity: 0.8;
+    }
+
+    .icon-loc-place{
+        background-size: 15px 15px;
+        width: 20px;
+        height: 20px;
+    }
+
+    .footer-main-page{
+        bottom: 0;
+    }
+
+    .label-section-categories{
+        font-size: 13px;
         margin-bottom: 15px;
     }
 
     .name-hot-places{
         margin-bottom: 15px;
+        font-size: 13px;
     }
 
     .footer-list{
         gap: 20px;
-        width: 265px;
+        width: 250px;
         height: 40px;
     }
 
