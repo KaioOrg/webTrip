@@ -185,9 +185,6 @@ li{
         height: 20px;
     }
 
-    .icon-locaion-place::after{
-        background-image: url("/static/icon.png");
-    }
 
     .footer-main-page{
         position: fixed;
