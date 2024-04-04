@@ -88,6 +88,7 @@ li{
     .hot-places{
         position: relative;
         margin-bottom: 12px;
+        margin-left: 5px;
         bottom: 0;
     }
 
@@ -336,122 +337,111 @@ li{
     }
 }
 
-@media (max-width: 285px){
-
+@media (max-width: 375px){
     .namePage{
-        width: 250px;
-        font-size: 14px;
+        width: 300px;
+        font-size: 1.125rem;
         font-weight: 500;
-        margin-top: 50px;
+        margin-top: 70px;
         margin-bottom: 30px;
-        color: #141B41;
     }
 
     form{
         margin-bottom: 27px;
         margin-top: 0;
-        width: 230px;
     }
 
     input{
-        width: 275px;
-        height: 30px;
-        padding-left: 15px;
-        font-size: 12px;
-        border-radius: 5px;
+        width: 325px;
+        height: 40px;
+        padding-left: 20px;
+        font-size: 14px;
     }
 
     .search-place-button{
-        margin-left: 10px;
+        margin-left: 25px;
         padding: 0;
-        width: 20px;
-    }
-
-    .search-icon-image{
-        width: 30px;
     }
 
     .label-section-categories{
         margin-top: 0;
-        font-size: 12px;
+        font-weight: 500;
+        font-size: 16px;
         margin-bottom: 20px;
     }
 
     .categories{
         padding-left: 0;
         margin-top: 0;
-        margin-bottom: 25px;
+        margin-bottom: 27px;
     }
 
     .category-item{
-        width: 85px;
+        width: 100px;
         padding-left: 10px;
-        font-size: 10px;
+        font-size: 14px;
         font-weight: 350;
-        row-gap: 10px;
+        row-gap: 15px;
     }
 
     .icon-category{
         width: 40px;
         height: 40px;
-        border-radius: 6px;
     }
 
     .hot-places{
-        margin-bottom: 50px;
+        margin-bottom: 30px;
+        bottom: 0;
     }
 
     .name-hot-places{
+        margin-top: 0;
+        font-weight: 500;
+        font-size: 16px;
         margin-bottom: 20px;
     }
 
     .text-see-all-places{
-        margin: 0;
-        font-size: 10px;
+        font-size: 14px;
+        padding: 5px 10px;
     }
 
     .hot-places-item{
         padding-right: 20px;
     }
 
-    .image-place{
-        background: linear-gradient(to top, rgba(0, 0, 0, 0.85), transparent);
-    }
-
-
     .first-image-place{
-        width: 255px;
-        height: 170px;
+        width: 295px;
+        height: 180px;
         border-radius: 18px;
     }
 
     .second-image-place{
-        width: 255px;
-        height: 170px;
+        width: 295px;
+        height: 180px;
         border-radius: 18px;
     }
 
     .third-image-place{
-        width: 255px;
-        height: 170px;
+        width: 295px;
+        height: 180px;
         border-radius: 18px;
     }
 
     .fourth-image-place{
-        width: 255px;
-        height: 170px;
+        width: 295px;
+        height: 180px;
         border-radius: 18px;
     }
 
     .text-name-place{
-        font-size: 12px;
+        font-size: 16px;
         margin-top: 100px;
         padding-left: 15px;
-        display: block;
     }
 
     .score-text{
-        font-size: 12px;
+        font-size: 14px;
         margin-top: 0;
         padding-left: 15px;
         padding-top: 5px;
@@ -464,29 +454,22 @@ li{
         height: 20px;
     }
 
-    .label-section-categories{
-        font-size: 13px;
-        margin-bottom: 15px;
-    }
-
-    .name-hot-places{
-        margin-bottom: 15px;
-        font-size: 13px;
-    }
 
     .footer-main-page{
         bottom: 0;
     }
 
+
     .footer-list{
-        gap: 20px;
-        width: 250px;
-        height: 40px;
+        gap: 25px;
+        padding: 0;
+        width: 345px;
+        height: 48px;
     }
 
     .footer-list-item{
         padding: 0 10px;
-        width: 10px;
+        width: 25px;
     }
 
     .home-icon{
@@ -494,6 +477,6 @@ li{
     }
 
     .footer-icon{
-        width: 15px;
+        width: 25px;
     }
 }
