@@ -18,7 +18,7 @@ li{
     .namePage{
         width: 300px;
         font-size: 1.125rem;
-        font-weight: 400;
+        font-weight: 500;
         margin-top: 70px;
         margin-bottom: 30px;
         color: #141B41;
@@ -49,8 +49,8 @@ li{
 
     .label-section-categories{
         margin-top: 0;
-        font-weight: 400;
-        font-size: 20px;
+        font-weight: 500;
+        font-size: 16px;
         margin-bottom: 20px;
         color: #141B41;
     }
@@ -86,12 +86,14 @@ li{
 
     .hot-places{
         position: relative;
+        margin-bottom: 12px;
+        bottom: 0;
     }
 
     .name-hot-places{
         margin-top: 0;
-        font-weight: 400;
-        font-size: 20px;
+        font-weight: 500;
+        font-size: 16px;
         margin-bottom: 20px;
         color: #141B41;
     }
@@ -112,19 +114,79 @@ li{
     }
 
     .hot-places-item{
-
+        padding-right: 20px;
     }
 
     .image-place{
+        background: linear-gradient(to top, rgba(0, 0, 0, 0.85), transparent);
+    }
+
+
+    .first-image-place{
+        background-image: url("/static/monumentBlack.png");
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center;
+        width: 295px;
+        height: 180px;
+        border-radius: 18px;
+    }
+
+    .second-image-place{
+        background-image: url("/static/memorilSalavatBlack.png");
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center;
+        width: 295px;
+        height: 180px;
+        border-radius: 18px;
+    }
+
+    .third-image-place{
+        background-image: url("/static/fontanBlack.png");
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center;
+        width: 295px;
+        height: 180px;
+        border-radius: 18px;
+    }
+
+    .fourth-image-place{
+        background-image: url("/static/cityMallBlack.png");
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center;
         width: 295px;
         height: 180px;
         border-radius: 18px;
     }
 
     .text-name-place{
-        color: black;
-        font-size: 20px;
-        letter-spacing: 2px;
+        color: #ffffff;
+        font-size: 16px;
+        margin-top: 100px;
+        padding-left: 15px;
+        display: block;
+    }
+
+    .score-text{
+        color: #ffffff;
+        font-size: 14px;
+        margin-top: 0;
+        padding-left: 15px;
+        padding-top: 5px;
+        opacity: 0.8;
+    }
+
+    .icon-locaion-place{
+        background-size: 15px 15px;
+        width: 20px;
+        height: 20px;
+    }
+
+    .icon-locaion-place::after{
+        background-image: url("/static/icon.png");
     }
 
     .footer-main-page{
@@ -157,5 +219,50 @@ li{
 
     .footer-icon{
         width: 25px;
+    }
+}
+
+@media (max-width: 320px) {
+    .namePage{
+        width: 300px;
+        font-size: 1rem;
+        font-weight: 500;
+        margin-top: 100px;
+        margin-bottom: 30px;
+        color: #141B41;
+    }
+
+    .footer-main-page{
+        position: fixed;
+        bottom: 0;
+        background-color: white;
+    }
+
+    .label-section-categories{
+        font-size: 16px;
+        margin-bottom: 15px;
+    }
+
+    .name-hot-places{
+        margin-bottom: 15px;
+    }
+
+    .footer-list{
+        gap: 20px;
+        width: 300px;
+        height: 48px;
+    }
+
+    .footer-list-item{
+        padding: 0 10px;
+        width: 20px;
+    }
+
+    .home-icon{
+        padding-left: 5px;
+    }
+
+    .footer-icon{
+        width: 20px;
     }
 }
