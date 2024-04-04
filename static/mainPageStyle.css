@@ -397,6 +397,10 @@ li{
         border-radius: 6px;
     }
 
+    .hot-places{
+        margin-bottom: 50px;
+    }
+
     .name-hot-places{
         margin-bottom: 20px;
     }
@@ -460,10 +464,6 @@ li{
         height: 20px;
     }
 
-    .footer-main-page{
-        bottom: 0;
-    }
-
     .label-section-categories{
         font-size: 13px;
         margin-bottom: 15px;
@@ -472,6 +472,10 @@ li{
     .name-hot-places{
         margin-bottom: 15px;
         font-size: 13px;
+    }
+
+    .footer-main-page{
+        bottom: 0;
     }
 
     .footer-list{
