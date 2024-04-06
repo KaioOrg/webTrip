@@ -98,10 +98,11 @@ li{
     }
 
     .name-hot-places{
-        margin-top: 0;
+        margin: 0;
+        padding-top: 5px;
+        padding-bottom: 10px;
         font-weight: 500;
         font-size: 16px;
-        margin-bottom: 20px;
         color: #141B41;
     }
 
@@ -382,21 +383,21 @@ li{
 
 @media (max-width: 320px) {
     .namePage{
-        width: 300px;
+        width: 250px;
         font-size: 14px;
-        font-weight: 500;
         margin-top: 45px;
         margin-bottom: 30px;
-        color: #141B41;
     }
 
     .label-section-categories{
-        font-size: 14px;
+        font-size: 12px;
         margin-bottom: 15px;
     }
 
     .name-hot-places{
-        margin-bottom: 15px;
+        font-size: 12px;
+        padding-bottom: 5px;
+        margin: 0;
     }
 
     .text-see-all-places{
