@@ -16,6 +16,10 @@ li{
 }
 
 @media (max-width: 425px) {
+    .header-search-page{
+        margin-bottom: 20px;
+    }
+
     .nameSearchPage{
         font-size: 24px;
         font-weight: 500;
@@ -52,11 +56,31 @@ li{
         border-radius: 5px;
     }
 
+    .all-places-searched{
+        margin: 0;
+    }
+
     .search-place-button{
         margin-left: 25px;
         padding: 0;
         border: transparent;
         background-color: transparent;
+    }
+
+    .searched-place-item{
+        width: 325px;
+        height: 122px;
+        padding: 10px;
+        border-radius: 15px;
+        background-color: #F7F8FD;
+    }
+
+    .items-image-places{
+        width: 70px;
+        height: 102px;
+        margin-top: 10px;
+        margin-left: 5px;
+        border-radius: 10px;
     }
 
     .footer-main-page{
@@ -113,7 +137,7 @@ li{
     }
 
     form{
-        margin-bottom: 27px;
+        margin-bottom: 30px;
         margin-top: 0;
     }
 
@@ -125,7 +149,7 @@ li{
     }
 
     .search-place-button{
-        margin-left: 25px;
+        margin-left: 20px;
         padding: 0;
     }
 
