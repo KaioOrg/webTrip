@@ -9,16 +9,18 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Fira+Mono:wght@400;500;700&family=Oswald:wght@200..700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="static/mainPageStyle.css">
+    <script src="templates/logicMainPage.js"></script>
     <title>Главная</title>
 </head>
 <body>
     <header>
         <a href="#"><img class="image-menu-bar" src="static/menuBarIcon.png" alt=""></a>
+        <a href="#"><img class="image-user" src="static/userIcon.png" alt=""></a>
         <h2 class="namePage">Отправляйтесь в путешествие вместе с нашим приложением</h2>
-        <form action="" method="get">
+        <!--<form action="" method="get">
             <input name="s" placeholder="Поиск места..." type="search">
             <button class="search-place-button" type="submit"><img class="search-icon-image" src="static/searchIcon.png" alt=""></button>
-        </form>
+        </form>-->
     </header>
 
     <main>
@@ -97,9 +99,9 @@
 
 <footer class="footer-main-page">
     <ul class="footer-list">
-        <li class="footer-list-item"><a href="#"><img class="footer-icon home-icon" src="static/homeIconGreen.png" alt=""></a></li>
-        <li class="footer-list-item"><a href="#"><img class="footer-icon" src="static/searchIcon2.png" alt=""></a></li>
-        <li class="footer-list-item"><a href="#"><img class="footer-icon" src="static/heartIcon.png" alt=""></a></li>
+        <li class="footer-list-item"><button type="button" class="footer-button" onclick="changeOnMainPage()"><img class="footer-icon home-icon" src="static/homeIconGreen.png" alt=""></button></li>
+        <li class="footer-list-item"><a href="#"><img class="footer-icon search-icon" onclick="changeOnSearchPage()" src="static/searchIcon2.png" alt=""></a></li>
+        <!--<li class="footer-list-item"><a href="#"><img class="footer-icon" src="static/heartIcon.png" alt=""></a></li>-->
         <li class="footer-list-item"><a href="#"><img class="footer-icon" src="static/notificationIcon.png" alt=""></a></li>
         <li class="footer-list-item"><a href="#"><img class="footer-icon" src="static/profileIcon.png" alt=""></a></li>
     </ul>

@@ -1,0 +1,35 @@
+<!doctype html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Fira+Mono:wght@400;500;700&family=Oswald:wght@200..700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="static/searchPageStyle.css">
+    <script src="templates/logicMainPage.js"></script>
+    <title>Document</title>
+</head>
+<body>
+<header>
+    <a href="#"><img class="image-user" src="static/userIcon.png" alt=""></a>
+    <h2 class="nameSearchPage">Поиск</h2>
+    <form action="" method="get">
+        <input name="s" placeholder="Поиск места..." type="search">
+        <button class="search-place-button" type="submit"><img class="search-icon-image" src="static/searchIcon.png" alt=""></button>
+    </form>
+</header>
+
+<footer class="footer-main-page">
+    <ul class="footer-list">
+        <li class="footer-list-item"><button type="button" class="footer-button" onclick="changeOnMainPage()"><img class="footer-icon home-icon" src="static/homeIcon.png" alt=""></button></li>
+        <li class="footer-list-item"><a href="#"><img class="footer-icon" onclick="changeOnSearchPage()" src="static/searchIcon_2_Green.png" alt=""></a></li>
+        <!--<li class="footer-list-item"><a href="#"><img class="footer-icon" src="static/heartIcon.png" alt=""></a></li>-->
+        <li class="footer-list-item"><a href="#"><img class="footer-icon" src="static/notificationIcon.png" alt=""></a></li>
+        <li class="footer-list-item"><a href="#"><img class="footer-icon" src="static/profileIcon.png" alt=""></a></li>
+    </ul>
+</footer>
+</body>
+</html>
