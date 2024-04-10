@@ -1,32 +1,19 @@
-body{
-    font-family: "Fira Mono", monospace;
-}
-
-a{
-    text-decoration: none;
-}
-
-li{
-    list-style-type: none;
-}
-
-.mainPage{
-    margin: 0 10px;
-    overflow-y: scroll;
-}
-
 @media (max-width: 425px) {
     .namePage{
         width: 300px;
         font-size: 1.125rem;
         font-weight: 500;
-        margin-top: 55px;
+        margin-top: 65px;
         margin-bottom: 30px;
         color: #141B41;
     }
 
     .image-menu-bar{
         width: 30px;
+        display: flex;
+        position: absolute;
+        top: 20px;
+        left: 15px;
         align-items: flex-start;
     }
 
@@ -34,7 +21,7 @@ li{
         width: 40px;
         display: flex;
         position: absolute;
-        right: 10px;
+        right: 15px;
         top: 10px;
     }
 
@@ -143,7 +130,7 @@ li{
     }
 
     .first-image-place{
-        background-image: url("../static/monumentBlack.png");
+        background-image: url("images/monumentBlack.png");
         background-size: cover;
         background-repeat: no-repeat;
         background-position: center;
@@ -153,7 +140,7 @@ li{
     }
 
     .second-image-place{
-        background-image: url("../static/memorilSalavatBlack.png");
+        background-image: url("images/memorilSalavatBlack.png");
         background-size: cover;
         background-repeat: no-repeat;
         background-position: center;
@@ -163,7 +150,7 @@ li{
     }
 
     .third-image-place{
-        background-image: url("../static/fontanBlack.png");
+        background-image: url("images/fontanBlack.png");
         background-size: cover;
         background-repeat: no-repeat;
         background-position: center;
@@ -173,7 +160,7 @@ li{
     }
 
     .fourth-image-place{
-        background-image: url("../static/cityMallBlack.png");
+        background-image: url("images/cityMallBlack.png");
         background-size: cover;
         background-repeat: no-repeat;
         background-position: center;
@@ -252,7 +239,7 @@ li{
         width: 300px;
         font-size: 1rem;
         font-weight: 500;
-        margin-top: 50px;
+        margin-top: 60px;
         margin-bottom: 30px;
     }
 
@@ -403,7 +390,7 @@ li{
     .namePage{
         width: 250px;
         font-size: 14px;
-        margin-top: 45px;
+        margin-top: 55px;
         margin-bottom: 30px;
     }
 
