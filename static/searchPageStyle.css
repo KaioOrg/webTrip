@@ -123,19 +123,19 @@
     }
 
     .hotel-text-button::before{
-        background-image: url("/static/images/hotelIconGrey.png");
+        background-image: url("../static/images/hotelIconGrey.png");
     }
 
     .entertainment-text-button::before{
-        background-image: url("/static/images/entartainmentIcon_2_Grey.png");
+        background-image: url("../static/images/entartainmentIcon_2_Grey.png");
     }
 
     .activity-text-button::before{
-        background-image: url("/static/images/activityIconGrey.png");
+        background-image: url("../static/images/activityIconGrey.png");
     }
 
     .malls-text-button::before{
-        background-image: url("/static/images/mallsIconGrey.png");
+        background-image: url("../static/images/mallsIconGrey.png");
     }
 
     .all-places-searched{
