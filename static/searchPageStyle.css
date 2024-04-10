@@ -109,6 +109,7 @@
         color: #72727E;
         padding-right: 12px;
         font-size: 14px;
+        font-weight: 400;
     }
 
     .text-category::before{
@@ -136,6 +137,23 @@
 
     .malls-text-button::before{
         background-image: url("../static/images/mallsIconGrey.png");
+    }
+
+
+    .hotel-new-icon::before{
+        background-image: url("../static/images/hotelIconWhite.png");
+    }
+
+    .entertainment-new-icon::before{
+        background-image: url("../static/images/entartainmentIcon_2_White.png");
+    }
+
+    .activity-new-icon::before{
+        background-image: url("../static/images/activityIconWhite.png");
+    }
+
+    .malls-new-icon::before{
+        background-image: url("../static/images/mallsIconWhite.png");
     }
 
     .all-places-searched{

@@ -5,12 +5,13 @@
     <meta name="viewport"
           content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <script defer src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <script src="templates/logicMainPage.js"></script>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Fira+Mono:wght@400;500;700&family=Oswald:wght@200..700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="static/resetStyles.css">
     <link rel="stylesheet" href="static/searchPageStyle.css">
-    <script src="templates/logicMainPage.js"></script>
     <title>Поиск мест</title>
 </head>
 <body>
@@ -28,7 +29,7 @@
     <section class="categories-chapter">
         <h2 class="label-text-categories">Фильтр по категориям</h2>
         <ul class="categories-list-items">
-            <li><button class="categories-item hotel-button-filter" type="submit"><p class="text-category hotel-text-button">Отели</p></button></li>
+            <li><button class="categories-item hotel-button-filter" onclick="changeColorOnHotelButtonFilter()" type="submit"><p class="text-category hotel-text-button">Отели</p></button></li>
             <li><button class="categories-item entertainment-button-filter" type="submit"><p class="text-category entertainment-text-button">Развлечния</p></button></li>
             <li><button class="categories-item activity-button-filter" type="submit"><p class="text-category activity-text-button">Активности</p></button></li>
             <li><button class="categories-item malls-button-filter" type="submit"><p class="text-category malls-text-button">Торговые центры</p></button></li>
@@ -36,6 +37,7 @@
     </section>
 
     <section class="all-places-searched">
+        <h4>Найдено</h4>
         <ul class="all-places-list">
             <li class="searched-place-item"><img class="items-image-places" src="static/images/cityMallMain.jpg" alt=""></li>
         </ul>
