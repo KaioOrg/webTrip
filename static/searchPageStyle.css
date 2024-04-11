@@ -1,13 +1,13 @@
 @media (max-width: 425px) {
     .header-search-page{
-        margin-bottom: 20px;
+        margin-bottom: 35px;
     }
 
     .nameSearchPage{
-        font-size: 24px;
+        font-size: 26px;
         font-weight: 500;
-        margin-top: 50px;
-        margin-bottom: 40px;
+        margin-top: 25px;
+        margin-bottom: 50px;
         display: flex;
         justify-content: center;
         color: #141B41;
@@ -26,7 +26,7 @@
         display: flex;
         position: absolute;
         right: 10px;
-        top: 20px;
+        top: 25px;
     }
 
     form{
@@ -37,11 +37,11 @@
     }
 
     input{
-        width: 300px;
+        width: 400px;
         height: 40px;
         color: #B6B4B4;
         padding-left: 20px;
-        margin-left: 10px;
+        margin-left: 0;
         font-size: 14px;
         border: 1px solid #eeeeee;
         border-radius: 5px;
@@ -62,7 +62,7 @@
     .label-text-categories{
         margin-top: 0;
         margin-bottom: 20px;
-        font-size: 20px;
+        font-size: 18px;
         color: #141B41;
         font-weight: 500;
     }
@@ -89,19 +89,30 @@
 
     .hotel-button-filter{
         width: 110px;
-        background-color: #ffffff;
     }
 
     .entertainment-button-filter{
         width: 150px;
     }
 
-    .activity-button-filter{
-        width: 150px;
+    .park-button-filter{
+        width: 110px;
     }
 
     .malls-button-filter{
         width: 190px;
+    }
+
+    .restaurant-text-button{
+        width: 125px;
+    }
+
+    .theatre-button-filter{
+        width: 115px;
+    }
+
+    .museum-button-filter{
+        width: 110px;
     }
 
     .text-category{
@@ -132,12 +143,24 @@
         background-image: url("../static/images/entartainmentIcon_2_Grey.png");
     }
 
-    .activity-text-button::before{
-        background-image: url("../static/images/activityIconGrey.png");
+    .park-text-button::before{
+        background-image: url("../static/images/parksIconGrey.png");
     }
 
     .malls-text-button::before{
         background-image: url("../static/images/mallsIconGrey.png");
+    }
+
+    .restaurant-text-button::before{
+        background-image: url("../static/images/restaurantIcon_2_Grey.png");
+    }
+
+    .theatre-text-button::before{
+        background-image: url("../static/images/theatreIconGrey.png");
+    }
+
+    .museum-text-button::before{
+        background-image: url("../static/images/museumIconGrey.png");
     }
 
 
@@ -149,12 +172,24 @@
         background-image: url("../static/images/entartainmentIcon_2_White.png");
     }
 
-    .activity-new-icon::before{
-        background-image: url("../static/images/activityIconWhite.png");
+    .park-new-icon::before{
+        background-image: url("../static/images/parksIconWhite.png");
     }
 
     .malls-new-icon::before{
         background-image: url("../static/images/mallsIconWhite.png");
+    }
+
+    .restaurant-new-icon::before{
+        background-image: url("../static/images/restaurantIcon_2_White.png");
+    }
+
+    .theatre-new-icon::before{
+        background-image: url("../static/images/theatreIconWhite.png");
+    }
+
+    .museum-new-icon::before{
+        background-image: url("../static/images/museumIconWhite.png");
     }
 
     .all-places-searched{
