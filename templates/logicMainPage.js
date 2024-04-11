@@ -20,6 +20,7 @@ function changeColorOnHotelButtonFilter(){
         document.querySelector(".hotel-text-button").style.color = "#ffffff"
         $(".hotel-text-button").addClass("hotel-new-icon")
         // document.querySelector(".all-places-searched").style.display = "none"
+        isPushedHotelButton = true
     }else if(isPushedHotelButton === true){
         document.querySelector(".hotel-button-filter").style.backgroundColor = "#ffffff"
         document.querySelector(".hotel-text-button").style.color = "#72727E"
