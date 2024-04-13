@@ -5,6 +5,7 @@ let isPushedMallButton = false
 let isPushedRestaurantButton = false
 let isPushedTheatreButton = false
 let isPushedMuseumButton = false
+let isPushedMonumentButton = false
 
 function changeOnMainPage(){
     window.location.href = "index.html"
@@ -110,5 +111,19 @@ function changeColorOnMuseumButtonFilter(){
         document.querySelector(".museum-text-button").style.color = "#72727E"
         $(".museum-new-icon").addClass("museum-text-button").removeClass("museum-new-icon")
         isPushedMuseumButton = false
+    }
+}
+
+function changeColorOnMomumentButtonFilter(){
+    if(isPushedMonumentButton === false){
+        document.querySelector(".monument-button-filter").style.backgroundColor = "#6495ed"
+        document.querySelector(".monument-text-button").style.color = "#ffffff"
+        $(".monument-text-button").addClass("monument-new-icon")
+        isPushedMonumentButton = true
+    }else if(isPushedMonumentButton === true) {
+        document.querySelector(".monument-button-filter").style.backgroundColor = "#ffffff"
+        document.querySelector(".monument-text-button").style.color = "#72727E"
+        $(".monument-new-icon").addClass("monument-text-button").removeClass("monument-new-icon")
+        isPushedMonumentButton = false
     }
 }

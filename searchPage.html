@@ -6,7 +6,7 @@
           content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <script defer src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
-    <script src="templates/logicMainPage.js"></script>
+    <script src="scripts/logicMainPage.js"></script>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Fira+Mono:wght@400;500;700&family=Oswald:wght@200..700&display=swap" rel="stylesheet">
@@ -30,33 +30,34 @@
         <h2 class="label-text-categories">Фильтр по категориям</h2>
         <ul class="categories-list-items">
             <li><button class="categories-item hotel-button-filter" onclick="changeColorOnHotelButtonFilter()" type="submit"><p class="text-category hotel-text-button">Отели</p></button></li>
-            <li><button class="categories-item entertainment-button-filter" onclick="changeColorOnEntertainmentButtonFilter()" type="submit"><p class="text-category entertainment-text-button">Развлечния</p></button></li>
+            <li><button class="categories-item entertainment-button-filter" onclick="changeColorOnEntertainmentButtonFilter()" type="submit"><p class="text-category entertainment-text-button">Развлечения</p></button></li>
             <li><button class="categories-item park-button-filter" onclick="changeColorOnParkButtonFilter()" type="submit"><p class="text-category park-text-button">Парки</p></button></li>
             <li><button class="categories-item malls-button-filter" onclick="changeColorOnMallButtonFilter()" type="submit"><p class="text-category malls-text-button">Торговые центры</p></button></li>
             <li><button class="categories-item restaurant-button-filter" onclick="changeColorOnRestaurantButtonFilter()" type="submit"><p class="text-category restaurant-text-button">Рестораны</p></button></li>
             <li><button class="categories-item theatre-button-filter" onclick="changeColorOnTheatreButtonFilter()" type="submit"><p class="text-category theatre-text-button">Театры</p></button></li>
             <li><button class="categories-item museum-button-filter" onclick="changeColorOnMuseumButtonFilter()" type="submit"><p class="text-category museum-text-button">Музеи</p></button></li>
+            <li><button class="categories-item monument-button-filter" onclick="changeColorOnMomumentButtonFilter()" type="submit"><p class="text-category monument-text-button">Памятники</p></button></li>
         </ul>
     </section>
 
     <section class="all-places-searched-section">
         <ul class="all-places-list">
             <li class="searched-place-item">
-                <img class="items-image-places" src="static/images/imagesPlaces/cityMallMain.jpg" alt="">
+                <img class="items-image-places" src="static/images/imagesPlaces/cityMallMain.png" alt="">
                 <h4 class="name-place-section-all-places">Гостиный двор</h4>
                 <p class="name-street-place">Уфа, Верхнеторговая площадь 1</p>
                 <img class="heart-icon" src="static/images/icons/heartIcon.png" alt="">
                 <p class="score-count-text">4,6</p>
             </li>
             <li class="searched-place-item">
-                <img class="items-image-places" src="static/images/imagesPlaces/cityMallMain.jpg" alt="">
+                <img class="items-image-places" src="static/images/imagesPlaces/cityMallMain.png" alt="">
                 <h4 class="name-place-section-all-places">Гостиный двор</h4>
                 <p class="name-street-place">Уфа, Верхнеторговая площадь 1</p>
                 <img class="heart-icon" src="static/images/icons/heartIcon.png" alt="">
                 <p class="score-count-text">4,6</p>
             </li>
             <li class="searched-place-item">
-                <img class="items-image-places" src="static/images/imagesPlaces/cityMallMain.jpg" alt="">
+                <img class="items-image-places" src="static/images/imagesPlaces/cityMallMain.png" alt="">
                 <h4 class="name-place-section-all-places">Гостиный двор</h4>
                 <p class="name-street-place">Уфа, Верхнеторговая площадь 1</p>
                 <img class="heart-icon" src="static/images/icons/heartIcon.png" alt="">

@@ -96,7 +96,7 @@
     }
 
     .entertainment-button-filter {
-        width: 150px;
+        width: 155px;
     }
 
     .park-button-filter {
@@ -117,6 +117,10 @@
 
     .museum-button-filter {
         width: 110px;
+    }
+
+    .monument-button-filter{
+        width: 140px;
     }
 
     .text-category {
@@ -167,6 +171,10 @@
         background-image: url("../static/images/icons/museumIconGrey.png");
     }
 
+    .monument-text-button::before{
+        background-image: url("../static/images/icons/monumentIconGrey.png");
+    }
+
 
     .hotel-new-icon::before {
         background-image: url("../static/images/icons/hotelIconWhite.png");
@@ -194,6 +202,10 @@
 
     .museum-new-icon::before {
         background-image: url("../static/images/icons/museumIconWhite.png");
+    }
+
+    .monument-new-icon::before{
+        background-image: url("../static/images/icons/monumentIconWhite.png");
     }
 
     .all-places-searched-section {
