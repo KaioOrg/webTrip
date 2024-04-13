@@ -130,7 +130,7 @@
     }
 
     .first-image-place{
-        background-image: url("images/monumentBlack.png");
+        background-image: url("images/placesOnMainPage/monumentBlack.png");
         background-size: cover;
         background-repeat: no-repeat;
         background-position: center;
@@ -140,7 +140,7 @@
     }
 
     .second-image-place{
-        background-image: url("images/memorilSalavatBlack.png");
+        background-image: url("images/placesOnMainPage/memorilSalavatBlack.png");
         background-size: cover;
         background-repeat: no-repeat;
         background-position: center;
@@ -150,7 +150,7 @@
     }
 
     .third-image-place{
-        background-image: url("images/fontanBlack.png");
+        background-image: url("images/placesOnMainPage/fontanBlack.png");
         background-size: cover;
         background-repeat: no-repeat;
         background-position: center;
@@ -160,7 +160,7 @@
     }
 
     .fourth-image-place{
-        background-image: url("images/cityMallBlack.png");
+        background-image: url("images/placesOnMainPage/cityMallBlack.png");
         background-size: cover;
         background-repeat: no-repeat;
         background-position: center;
@@ -189,7 +189,7 @@
 
     .score-text::before{
         content: "";
-        background-image: url("../static/images/starIcon.png");
+        background-image: url("../static/images/icons/starIcon.png");
         background-repeat: no-repeat;
         position: absolute;
         background-size: 25px 20px;

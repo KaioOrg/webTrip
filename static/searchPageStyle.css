@@ -140,60 +140,60 @@
     }
 
     .hotel-text-button::before {
-        background-image: url("../static/images/hotelIconGrey.png");
+        background-image: url("../static/images/icons/hotelIconGrey.png");
     }
 
     .entertainment-text-button::before {
-        background-image: url("../static/images/entartainmentIcon_2_Grey.png");
+        background-image: url("../static/images/icons/entartainmentIcon_2_Grey.png");
     }
 
     .park-text-button::before {
-        background-image: url("../static/images/parksIconGrey.png");
+        background-image: url("../static/images/icons/parksIconGrey.png");
     }
 
     .malls-text-button::before {
-        background-image: url("../static/images/mallsIconGrey.png");
+        background-image: url("../static/images/icons/mallsIconGrey.png");
     }
 
     .restaurant-text-button::before {
-        background-image: url("../static/images/restaurantIcon_2_Grey.png");
+        background-image: url("../static/images/icons/restaurantIcon_2_Grey.png");
     }
 
     .theatre-text-button::before {
-        background-image: url("../static/images/theatreIconGrey.png");
+        background-image: url("../static/images/icons/theatreIconGrey.png");
     }
 
     .museum-text-button::before {
-        background-image: url("../static/images/museumIconGrey.png");
+        background-image: url("../static/images/icons/museumIconGrey.png");
     }
 
 
     .hotel-new-icon::before {
-        background-image: url("../static/images/hotelIconWhite.png");
+        background-image: url("../static/images/icons/hotelIconWhite.png");
     }
 
     .entertainment-new-icon::before {
-        background-image: url("../static/images/entartainmentIcon_2_White.png");
+        background-image: url("../static/images/icons/entartainmentIcon_2_White.png");
     }
 
     .park-new-icon::before {
-        background-image: url("../static/images/parksIconWhite.png");
+        background-image: url("../static/images/icons/parksIconWhite.png");
     }
 
     .malls-new-icon::before {
-        background-image: url("../static/images/mallsIconWhite.png");
+        background-image: url("../static/images/icons/mallsIconWhite.png");
     }
 
     .restaurant-new-icon::before {
-        background-image: url("../static/images/restaurantIcon_2_White.png");
+        background-image: url("../static/images/icons/restaurantIcon_2_White.png");
     }
 
     .theatre-new-icon::before {
-        background-image: url("../static/images/theatreIconWhite.png");
+        background-image: url("../static/images/icons/theatreIconWhite.png");
     }
 
     .museum-new-icon::before {
-        background-image: url("../static/images/museumIconWhite.png");
+        background-image: url("../static/images/icons/museumIconWhite.png");
     }
 
     .all-places-searched-section {
@@ -211,7 +211,7 @@
         width: 355px;
         height: 112px;
         padding: 10px;
-        margin-bottom: 15px;
+        margin-bottom: 20px;
         border-radius: 15px;
         background-color: #F7F8FD;
         display: flex;
@@ -264,7 +264,7 @@
 
     .score-count-text::after {
         content: "";
-        background-image: url("../static/images/starIcon.png");
+        background-image: url("../static/images/icons/starIcon.png");
         background-repeat: no-repeat;
         position: absolute;
         background-size: 25px 20px;
@@ -439,6 +439,7 @@
         width: 310px;
         height: 112px;
         padding: 10px;
+        margin-bottom: 20px;
         border-radius: 15px;
         background-color: #F7F8FD;
         display: flex;
@@ -490,7 +491,6 @@
 
     .score-count-text::after {
         content: "";
-        background-image: url("../static/images/starIcon.png");
         background-repeat: no-repeat;
         position: absolute;
         bottom: 0;
