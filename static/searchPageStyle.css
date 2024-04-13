@@ -1,3 +1,7 @@
+.mainPage{
+    overflow-x: hidden;
+}
+
 @media (max-width: 425px) {
     .header-search-page{
         margin-bottom: 35px;
@@ -230,10 +234,11 @@
     }
 
     .heart-icon{
-        width: 30px;
-        height: 30px;
+        width: 25px;
+        height: 25px;
         margin-top: 0;
         margin-left: 30px;
+        margin-top: 5px;
     }
 
     .name-street-place{
@@ -331,8 +336,166 @@
     }
 
     .search-place-button{
-        margin-left: 20px;
+        margin-left: 25px;
         padding: 0;
+        border: transparent;
+        background-color: transparent;
+    }
+
+    .categories-chapter{
+        margin-top: 0;
+        margin-bottom: 30px;
+    }
+
+    .label-text-categories{
+        margin-top: 0;
+        margin-bottom: 20px;
+        font-size: 18px;
+        color: #141B41;
+        font-weight: 500;
+    }
+
+    .categories-list-items{
+        margin-top: 0;
+        padding-left: 15px;
+        gap: 10px;
+        display: flex;
+        overflow-x: scroll;
+    }
+
+    .categories-item{
+        padding: 0;
+        border-radius: 15px;
+        margin-right: 10px;
+        margin-bottom: 15px;
+        /*background-color: cornflowerblue;*/
+        background-color: #ffffff;
+        display: grid;
+        border-color: transparent;
+        box-shadow: 0 3px 5px 2px rgba(34, 60, 80, 0.1);
+    }
+
+    .hotel-button-filter{
+        width: 110px;
+    }
+
+    .entertainment-button-filter{
+        width: 150px;
+    }
+
+    .park-button-filter{
+        width: 110px;
+    }
+
+    .malls-button-filter{
+        width: 190px;
+    }
+
+    .restaurant-text-button{
+        width: 125px;
+    }
+
+    .theatre-button-filter{
+        width: 115px;
+    }
+
+    .museum-button-filter{
+        width: 110px;
+    }
+
+    .text-category{
+        text-align: right;
+        position: relative;
+        color: #72727E;
+        padding-right: 12px;
+        font-size: 14px;
+        font-weight: 400;
+    }
+
+    .text-category::before{
+        content: "";
+        position: absolute;
+        background-attachment: scroll;
+        background-size: 30px 30px;
+        width: 30px;
+        height: 30px;
+        bottom: -5px;
+        left: 10px;
+    }
+
+    .all-places-searched-section{
+        margin-top: 0;
+    }
+
+    .all-places-list{
+        margin: auto;
+        display: table;
+        padding-left: 0;
+    }
+
+    .searched-place-item{
+        width: 315px;
+        height: 112px;
+        padding: 10px;
+        border-radius: 15px;
+        background-color: #F7F8FD;
+        display: flex;
+        position: relative;
+    }
+
+    .items-image-places{
+        width: 112px;
+        height: 112px;
+        margin-top: 0;
+        margin-left: 5px;
+        border-radius: 25px;
+    }
+
+    .name-place-section-all-places{
+        color: #141B41;
+        font-weight: 450;
+        font-size: 16px;
+        margin: 5px 0 0 15px;
+        width: 150px;
+        height: 25px;
+    }
+
+    .heart-icon{
+        width: 25px;
+        height: 25px;
+        margin-top: 0;
+        margin-left: 30px;
+        margin-top: 5px;
+    }
+
+    .name-street-place{
+        font-size: 10px;
+        color: #72727E;
+        margin: 0;
+        top: 100px;
+        left: 150px;
+        width: 300px;
+        display: flex;
+        position: absolute;
+    }
+
+    .score-count-text{
+        top: 30px;
+        left: 145px;
+        color: #141B41;
+        font-size: 14px;
+        position: absolute;
+    }
+
+    .score-count-text::after{
+        content: "";
+        background-image: url("../static/images/starIcon.png");
+        background-repeat: no-repeat;
+        position: absolute;
+        bottom: 0;
+        background-size: 25px 20px;
+        width: 25px;
+        height: 20px;
     }
 
     .footer-main-page{
