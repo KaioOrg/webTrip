@@ -1,13 +1,13 @@
-.mainPage{
+.mainPage {
     overflow-x: hidden;
 }
 
 @media (max-width: 425px) {
-    .header-search-page{
+    .header-search-page {
         margin-bottom: 35px;
     }
 
-    .nameSearchPage{
+    .nameSearchPage {
         font-size: 26px;
         font-weight: 500;
         margin-top: 25px;
@@ -17,7 +17,7 @@
         color: #141B41;
     }
 
-    .image-user{
+    .image-user {
         width: 40px;
         display: flex;
         position: absolute;
@@ -25,7 +25,7 @@
         top: 15px;
     }
 
-    .notifications-icon{
+    .notifications-icon {
         width: 25px;
         display: flex;
         position: absolute;
@@ -33,14 +33,14 @@
         top: 25px;
     }
 
-    form{
+    form {
         display: flex;
         justify-content: center;
         margin-bottom: 27px;
         margin-top: 0;
     }
 
-    input{
+    input {
         width: 400px;
         height: 40px;
         color: #B6B4B4;
@@ -51,19 +51,19 @@
         border-radius: 5px;
     }
 
-    .search-place-button{
+    .search-place-button {
         margin-left: 25px;
         padding: 0;
         border: transparent;
         background-color: transparent;
     }
 
-    .categories-chapter{
+    .categories-chapter {
         margin-top: 0;
         margin-bottom: 30px;
     }
 
-    .label-text-categories{
+    .label-text-categories {
         margin-top: 0;
         margin-bottom: 20px;
         font-size: 18px;
@@ -71,7 +71,7 @@
         font-weight: 500;
     }
 
-    .categories-list-items{
+    .categories-list-items {
         margin-top: 0;
         padding-left: 15px;
         gap: 10px;
@@ -79,7 +79,7 @@
         overflow-x: scroll;
     }
 
-    .categories-item{
+    .categories-item {
         padding: 0;
         border-radius: 15px;
         margin-right: 10px;
@@ -91,35 +91,35 @@
         box-shadow: 0 3px 5px 2px rgba(34, 60, 80, 0.1);
     }
 
-    .hotel-button-filter{
+    .hotel-button-filter {
         width: 110px;
     }
 
-    .entertainment-button-filter{
+    .entertainment-button-filter {
         width: 150px;
     }
 
-    .park-button-filter{
+    .park-button-filter {
         width: 110px;
     }
 
-    .malls-button-filter{
+    .malls-button-filter {
         width: 190px;
     }
 
-    .restaurant-text-button{
+    .restaurant-text-button {
         width: 125px;
     }
 
-    .theatre-button-filter{
+    .theatre-button-filter {
         width: 115px;
     }
 
-    .museum-button-filter{
+    .museum-button-filter {
         width: 110px;
     }
 
-    .text-category{
+    .text-category {
         text-align: right;
         position: relative;
         color: #72727E;
@@ -128,7 +128,7 @@
         font-weight: 400;
     }
 
-    .text-category::before{
+    .text-category::before {
         content: "";
         position: absolute;
         background-attachment: scroll;
@@ -139,74 +139,74 @@
         left: 10px;
     }
 
-    .hotel-text-button::before{
+    .hotel-text-button::before {
         background-image: url("../static/images/hotelIconGrey.png");
     }
 
-    .entertainment-text-button::before{
+    .entertainment-text-button::before {
         background-image: url("../static/images/entartainmentIcon_2_Grey.png");
     }
 
-    .park-text-button::before{
+    .park-text-button::before {
         background-image: url("../static/images/parksIconGrey.png");
     }
 
-    .malls-text-button::before{
+    .malls-text-button::before {
         background-image: url("../static/images/mallsIconGrey.png");
     }
 
-    .restaurant-text-button::before{
+    .restaurant-text-button::before {
         background-image: url("../static/images/restaurantIcon_2_Grey.png");
     }
 
-    .theatre-text-button::before{
+    .theatre-text-button::before {
         background-image: url("../static/images/theatreIconGrey.png");
     }
 
-    .museum-text-button::before{
+    .museum-text-button::before {
         background-image: url("../static/images/museumIconGrey.png");
     }
 
 
-    .hotel-new-icon::before{
+    .hotel-new-icon::before {
         background-image: url("../static/images/hotelIconWhite.png");
     }
 
-    .entertainment-new-icon::before{
+    .entertainment-new-icon::before {
         background-image: url("../static/images/entartainmentIcon_2_White.png");
     }
 
-    .park-new-icon::before{
+    .park-new-icon::before {
         background-image: url("../static/images/parksIconWhite.png");
     }
 
-    .malls-new-icon::before{
+    .malls-new-icon::before {
         background-image: url("../static/images/mallsIconWhite.png");
     }
 
-    .restaurant-new-icon::before{
+    .restaurant-new-icon::before {
         background-image: url("../static/images/restaurantIcon_2_White.png");
     }
 
-    .theatre-new-icon::before{
+    .theatre-new-icon::before {
         background-image: url("../static/images/theatreIconWhite.png");
     }
 
-    .museum-new-icon::before{
+    .museum-new-icon::before {
         background-image: url("../static/images/museumIconWhite.png");
     }
 
-    .all-places-searched-section{
+    .all-places-searched-section {
         margin-top: 0;
     }
 
-    .all-places-list{
+    .all-places-list {
         margin: auto;
         display: table;
         padding-left: 0;
     }
 
-    .searched-place-item{
+    .searched-place-item {
         width: 355px;
         height: 112px;
         padding: 10px;
@@ -216,7 +216,7 @@
         position: relative;
     }
 
-    .items-image-places{
+    .items-image-places {
         width: 122px;
         height: 112px;
         margin-top: 0;
@@ -224,7 +224,7 @@
         border-radius: 25px;
     }
 
-    .name-place-section-all-places{
+    .name-place-section-all-places {
         color: #141B41;
         font-weight: 450;
         font-size: 18px;
@@ -233,7 +233,7 @@
         height: 25px;
     }
 
-    .heart-icon{
+    .heart-icon {
         width: 25px;
         height: 25px;
         margin-top: 0;
@@ -241,7 +241,7 @@
         margin-top: 5px;
     }
 
-    .name-street-place{
+    .name-street-place {
         font-size: 12px;
         color: #72727E;
         margin: 0;
@@ -252,7 +252,7 @@
         position: absolute;
     }
 
-    .score-count-text{
+    .score-count-text {
         top: 30px;
         left: 155px;
         color: #141B41;
@@ -260,7 +260,7 @@
         position: absolute;
     }
 
-    .score-count-text::after{
+    .score-count-text::after {
         content: "";
         background-image: url("../static/images/starIcon.png");
         background-repeat: no-repeat;
@@ -270,14 +270,14 @@
         height: 20px;
     }
 
-    .footer-main-page{
+    .footer-main-page {
         position: fixed;
         bottom: 0;
         background-color: white;
         width: 100%;
     }
 
-    .footer-list{
+    .footer-list {
         gap: 40px;
         padding: 0;
         width: 390px;
@@ -290,28 +290,28 @@
         box-shadow: 0 5px 10px 2px rgba(34, 60, 80, 0.2);
     }
 
-    .footer-list-item{
+    .footer-list-item {
         padding: 0 10px;
         width: 25px;
     }
 
-    .footer-button{
+    .footer-button {
         background-color: transparent;
         border: none;
         padding: 0;
     }
 
-    .home-icon{
+    .home-icon {
         padding-left: 5px;
     }
 
-    .footer-icon{
+    .footer-icon {
         width: 25px;
     }
 }
 
-@media (max-width: 375px){
-    .namePage{
+@media (max-width: 375px) {
+    .namePage {
         width: 300px;
         font-size: 1rem;
         font-weight: 500;
@@ -319,35 +319,35 @@
         margin-bottom: 30px;
     }
 
-    .image-user{
+    .image-user {
         width: 35px;
     }
 
-    form{
+    form {
         margin-bottom: 30px;
         margin-top: 0;
     }
 
-    input{
+    input {
         width: 325px;
         height: 40px;
         padding-left: 20px;
         font-size: 14px;
     }
 
-    .search-place-button{
+    .search-place-button {
         margin-left: 25px;
         padding: 0;
         border: transparent;
         background-color: transparent;
     }
 
-    .categories-chapter{
+    .categories-chapter {
         margin-top: 0;
         margin-bottom: 30px;
     }
 
-    .label-text-categories{
+    .label-text-categories {
         margin-top: 0;
         margin-bottom: 20px;
         font-size: 18px;
@@ -355,7 +355,7 @@
         font-weight: 500;
     }
 
-    .categories-list-items{
+    .categories-list-items {
         margin-top: 0;
         padding-left: 15px;
         gap: 10px;
@@ -363,7 +363,7 @@
         overflow-x: scroll;
     }
 
-    .categories-item{
+    .categories-item {
         padding: 0;
         border-radius: 15px;
         margin-right: 10px;
@@ -375,35 +375,35 @@
         box-shadow: 0 3px 5px 2px rgba(34, 60, 80, 0.1);
     }
 
-    .hotel-button-filter{
+    .hotel-button-filter {
         width: 110px;
     }
 
-    .entertainment-button-filter{
+    .entertainment-button-filter {
         width: 150px;
     }
 
-    .park-button-filter{
+    .park-button-filter {
         width: 110px;
     }
 
-    .malls-button-filter{
+    .malls-button-filter {
         width: 190px;
     }
 
-    .restaurant-text-button{
+    .restaurant-text-button {
         width: 125px;
     }
 
-    .theatre-button-filter{
+    .theatre-button-filter {
         width: 115px;
     }
 
-    .museum-button-filter{
+    .museum-button-filter {
         width: 110px;
     }
 
-    .text-category{
+    .text-category {
         text-align: right;
         position: relative;
         color: #72727E;
@@ -412,7 +412,7 @@
         font-weight: 400;
     }
 
-    .text-category::before{
+    .text-category::before {
         content: "";
         position: absolute;
         background-attachment: scroll;
@@ -423,18 +423,18 @@
         left: 10px;
     }
 
-    .all-places-searched-section{
+    .all-places-searched-section {
         margin-top: 0;
     }
 
-    .all-places-list{
+    .all-places-list {
         margin: auto;
         display: table;
         padding-left: 0;
     }
 
-    .searched-place-item{
-        width: 315px;
+    .searched-place-item {
+        width: 310px;
         height: 112px;
         padding: 10px;
         border-radius: 15px;
@@ -443,7 +443,7 @@
         position: relative;
     }
 
-    .items-image-places{
+    .items-image-places {
         width: 112px;
         height: 112px;
         margin-top: 0;
@@ -451,35 +451,34 @@
         border-radius: 25px;
     }
 
-    .name-place-section-all-places{
+    .name-place-section-all-places {
         color: #141B41;
         font-weight: 450;
-        font-size: 16px;
-        margin: 5px 0 0 15px;
+        font-size: 14px;
+        margin: 5px 0 0 10px;
         width: 150px;
         height: 25px;
     }
 
-    .heart-icon{
+    .heart-icon {
         width: 25px;
         height: 25px;
         margin-top: 0;
         margin-left: 30px;
-        margin-top: 5px;
     }
 
-    .name-street-place{
+    .name-street-place {
         font-size: 10px;
         color: #72727E;
         margin: 0;
         top: 100px;
-        left: 150px;
+        left: 140px;
         width: 300px;
         display: flex;
         position: absolute;
     }
 
-    .score-count-text{
+    .score-count-text {
         top: 30px;
         left: 145px;
         color: #141B41;
@@ -487,7 +486,7 @@
         position: absolute;
     }
 
-    .score-count-text::after{
+    .score-count-text::after {
         content: "";
         background-image: url("../static/images/starIcon.png");
         background-repeat: no-repeat;
@@ -498,34 +497,34 @@
         height: 20px;
     }
 
-    .footer-main-page{
+    .footer-main-page {
         bottom: 0;
     }
 
 
-    .footer-list{
+    .footer-list {
         gap: 35px;
         padding: 0;
         width: 340px;
         height: 48px;
     }
 
-    .footer-list-item{
+    .footer-list-item {
         padding: 0 10px;
         width: 25px;
     }
 
-    .home-icon{
+    .home-icon {
         padding-left: 5px;
     }
 
-    .footer-icon{
+    .footer-icon {
         width: 25px;
     }
 }
 
 @media (max-width: 320px) {
-    .namePage{
+    .namePage {
         width: 250px;
         font-size: 14px;
         margin-top: 45px;
@@ -533,26 +532,26 @@
     }
 
 
-    .image-user{
+    .image-user {
         width: 30px;
     }
 
-    .footer-list{
+    .footer-list {
         gap: 30px;
         width: 290px;
         height: 48px;
     }
 
-    .footer-list-item{
+    .footer-list-item {
         padding: 0 10px;
         width: 20px;
     }
 
-    .home-icon{
+    .home-icon {
         padding-left: 5px;
     }
 
-    .footer-icon{
+    .footer-icon {
         width: 20px;
     }
 }
