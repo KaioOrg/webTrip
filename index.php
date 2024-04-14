@@ -38,7 +38,7 @@
 
         <section class="hot-places">
             <h3 class="name-hot-places">Популярные места</h3>
-            <a href="#"><p class="text-see-all-places">Все</p></a>
+            <a href="category-filters.php"><p class="text-see-all-places">Все</p></a>
             <div class="card-gradient">
             </div>
             <ul class="hot-places-list">
@@ -101,11 +101,11 @@
 
 <footer class="footer-main-page">
     <ul class="footer-list">
-        <li class="footer-list-item"><button type="button" class="footer-button" onclick="changeOnMainPage()"><img class="footer-icon home-icon" src="static/images/icons/homeIconGreen.png" alt=""></button></li>
-        <li class="footer-list-item"><button type="button" class="footer-button" onclick="changeOnSearchPage()"><img class="footer-icon search-icon" src="static/images/icons/searchIcon2.png" alt=""></button></li>
+        <li class="footer-list-item"><a href="index.php" class="footer-button"><img class="footer-icon home-icon" src="static/images/icons/homeIconGreen.png" alt=""></a></li>
+        <li class="footer-list-item"><a href="searchPage.php" class="footer-button"><img class="footer-icon search-icon" src="static/images/icons/searchIcon2.png" alt=""></a></li>
         <!--<li class="footer-list-item"><a href="#"><img class="footer-icon" src="static/heartIcon.png" alt=""></a></li>-->
-        <li class="footer-list-item"><button type="button" class="footer-button"><img class="footer-icon" src="static/images/icons/notificationIcon.png" alt=""></button></li>
-        <li class="footer-list-item"><button type="button" class="footer-button"><img class="footer-icon" src="static/images/icons/profileIcon.png" alt=""></button></li>
+        <li class="footer-list-item"><a href="#" class="footer-button"><img class="footer-icon" src="static/images/icons/notificationIcon.png" alt=""></a></li>
+        <li class="footer-list-item"><a href="#" class="footer-button"><img class="footer-icon" src="static/images/icons/profileIcon.png" alt=""></a></li>
     </ul>
 </footer>
 </body>

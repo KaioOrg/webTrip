@@ -41,39 +41,18 @@
     </section>
 
     <section class="all-places-searched-section">
-        <ul class="all-places-list">
-            <li class="searched-place-item">
-                <img class="items-image-places" src="static/images/imagesPlaces/cityMallMain.png" alt="">
-                <h4 class="name-place-section-all-places">Гостиный двор</h4>
-                <p class="name-street-place">Уфа, Верхнеторговая площадь 1</p>
-                <img class="heart-icon" src="static/images/icons/heartIcon.png" alt="">
-                <p class="score-count-text">4,6</p>
-            </li>
-            <li class="searched-place-item">
-                <img class="items-image-places" src="static/images/imagesPlaces/cityMallMain.png" alt="">
-                <h4 class="name-place-section-all-places">Гостиный двор</h4>
-                <p class="name-street-place">Уфа, Верхнеторговая площадь 1</p>
-                <img class="heart-icon" src="static/images/icons/heartIcon.png" alt="">
-                <p class="score-count-text">4,6</p>
-            </li>
-            <li class="searched-place-item">
-                <img class="items-image-places" src="static/images/imagesPlaces/cityMallMain.png" alt="">
-                <h4 class="name-place-section-all-places">Гостиный двор</h4>
-                <p class="name-street-place">Уфа, Верхнеторговая площадь 1</p>
-                <img class="heart-icon" src="static/images/icons/heartIcon.png" alt="">
-                <p class="score-count-text">4,6</p>
-            </li>
-        </ul>
+        <p>10 объектов найдено в Уфе</p>
+        <?php require_once "backEnd/mainSectionWithPlaces.php" ?>
     </section>
 </main>
 
 <footer class="footer-main-page">
     <ul class="footer-list">
-        <li class="footer-list-item"><button type="button" class="footer-button" onclick="changeOnMainPage()"><img class="footer-icon home-icon" src="static/images/icons/homeIcon.png" alt=""></button></li>
-        <li class="footer-list-item"><button type="button" class="footer-button" onclick="changeOnSearchPage()"><img class="footer-icon search-icon" src="static/images/icons/searchIcon_2_Green.png" alt=""></button></li>
+        <li class="footer-list-item"><a href="index.php" class="footer-button"><img class="footer-icon home-icon" src="static/images/icons/homeIcon.png" alt=""></a></li>
+        <li class="footer-list-item"><a href="searchPage.php" class="footer-button"><img class="footer-icon search-icon" src="static/images/icons/searchIcon_2_Green.png" alt=""></a></li>
         <!--<li class="footer-list-item"><a href="#"><img class="footer-icon" src="static/heartIcon.png" alt=""></a></li>-->
-        <li class="footer-list-item"><button type="button" class="footer-button"><img class="footer-icon" src="static/images/icons/notificationIcon.png" alt=""></button></li>
-        <li class="footer-list-item"><button type="button" class="footer-button"><img class="footer-icon" src="static/images/icons/profileIcon.png" alt=""></button></li>
+        <li class="footer-list-item"><a href="#" class="footer-button"><img class="footer-icon" src="static/images/icons/notificationIcon.png" alt=""></a></li>
+        <li class="footer-list-item"><a href="#" class="footer-button"><img class="footer-icon" src="static/images/icons/profileIcon.png" alt=""></a></li>
     </ul>
 </footer>
 </body>
