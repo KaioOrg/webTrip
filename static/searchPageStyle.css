@@ -245,6 +245,12 @@
         padding-left: 0;
     }
 
+    .list-malls-category{
+        margin: auto;
+        display: none;
+        padding-left: 0;
+    }
+
     .searched-place-item {
         width: 365px;
         height: 112px;

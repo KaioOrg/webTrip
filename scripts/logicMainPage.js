@@ -99,10 +99,14 @@ function changeColorOnMallButtonFilter(){
         changeColorOnTheatreButtonFilter()
         changeColorOnMuseumButtonFilter()
         changeColorOnMomumentButtonFilter()
+        document.querySelector(".all-places-list").style.display = "none"
+        document.querySelector(".list-malls-category").style.display = "table"
     }else if(isPushedButton[3]) {
         document.querySelector(".malls-button-filter").style.backgroundColor = "#ffffff"
         document.querySelector(".malls-text-button").style.color = "#72727E"
         $(".malls-new-icon").addClass("malls-text-button").removeClass("malls-new-icon")
+        document.querySelector(".list-malls-category").style.display = "none"
+        document.querySelector(".all-places-list").style.display = "table"
         isPushedButton[3] = false
     }
 }

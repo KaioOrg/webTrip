@@ -45,6 +45,7 @@
         <?php require_once "backEnd/hotelsCategory.php" ?>
         <?php require_once "backEnd/entertainmentCategory.php" ?>
         <?php require_once "backEnd/parkCategory.php" ?>
+        <?php require_once "backEnd/mallCategory.php" ?>
 
 </main>
 

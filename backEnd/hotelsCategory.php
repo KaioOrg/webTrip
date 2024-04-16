@@ -8,6 +8,7 @@ $labelsPlaces = array(
     'Амакс Сити Отель'=> array('hotelsPlaces/amaksHotel.png', ' Рихарда Зорге 17', '4,5'),
 );?>
 <ul class="list-hotels-category">
+    <p class="count-finded-places">Фильтр: Отели</p>
     <?php foreach ($labelsPlaces as $name_place => $value){
         ?>
         <li class="searched-place-item"><a href="backEnd/hotelsCategory.php">

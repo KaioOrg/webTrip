@@ -25,7 +25,7 @@ $title = array(
 
 ?>
 <ul class="all-places-list">
-    <!-- <p class="count-finded-places">9 объектов найдено</p>     -->
+    <p class="count-finded-places">Все места</p>    
     <?php foreach ($title as $name_place => $value){
         ?>
         <li class="searched-place-item"><a href="backEnd/hotelsCategory.php">
