@@ -210,7 +210,15 @@
 
     .all-places-searched-section {
         margin-top: 0;
-        margin-bottom: 50px;
+        margin-bottom: 60px;
+    }
+
+    .count-finded-places{
+        margin-top: 0;
+        margin-bottom: 10px;
+        font-size: 16px;
+        font-weight: 400;
+        color: #141B41;
     }
 
     .all-places-list {
@@ -231,7 +239,7 @@
     }
 
     .items-image-places {
-        width: 122px;
+        width: 112px;
         height: 112px;
         margin-top: 0;
         margin-left: 5px;
@@ -240,19 +248,23 @@
 
     .name-place-section-all-places {
         color: #141B41;
-        font-weight: 450;
-        font-size: 18px;
-        margin: 5px 0 0 15px;
-        width: 150px;
+        font-weight: 400;
+        font-size: 16px;
+        margin: 10px 0 0 15px;
+        width: 200px;
         height: 25px;
-    }
+        position: absolute;
+        top: 5px;
+        left: 125px;
+        }
 
     .heart-icon {
         width: 25px;
         height: 25px;
-        margin-top: 0;
-        margin-left: 30px;
-        margin-top: 5px;
+        margin: 10px 0 0 30px;
+        position: absolute;
+        top: 5px;
+        left: 300px;
     }
 
     .name-street-place {
@@ -260,7 +272,7 @@
         color: #72727E;
         margin: 0;
         top: 100px;
-        left: 150px;
+        left: 145px;
         width: 300px;
         display: flex;
         position: absolute;
@@ -268,7 +280,7 @@
 
     .score-count-text {
         top: 30px;
-        left: 155px;
+        left: 145px;
         color: #141B41;
         font-size: 16px;
         position: absolute;
