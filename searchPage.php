@@ -42,7 +42,10 @@
 
     <section class="all-places-searched-section">
         <?php require_once "backEnd/mainSectionWithPlaces.php" ?>
-    </section>
+        <?php require_once "backEnd/hotelsCategory.php" ?>
+        <?php require_once "backEnd/entertainmentCategory.php" ?>
+        <?php require_once "backEnd/parkCategory.php" ?>
+
 </main>
 
 <footer class="footer-main-page">
