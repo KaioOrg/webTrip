@@ -124,10 +124,14 @@ function changeColorOnRestaurantButtonFilter(){
         changeColorOnTheatreButtonFilter()
         changeColorOnMuseumButtonFilter()
         changeColorOnMomumentButtonFilter()
+        document.querySelector(".all-places-list").style.display = "none"
+        document.querySelector(".list-restaurants-category").style.display = "table"
     }else if(isPushedButton[4]) {
         document.querySelector(".restaurant-button-filter").style.backgroundColor = "#ffffff"
         document.querySelector(".restaurant-text-button").style.color = "#72727E"
         $(".restaurant-new-icon").addClass("restaurant-text-button").removeClass("restaurant-new-icon")
+        document.querySelector(".list-restaurants-category").style.display = "none"
+        document.querySelector(".all-places-list").style.display = "table"
         isPushedButton[4] = false
     }
 }
@@ -145,10 +149,14 @@ function changeColorOnTheatreButtonFilter(){
         changeColorOnRestaurantButtonFilter()
         changeColorOnMuseumButtonFilter()
         changeColorOnMomumentButtonFilter()
+        document.querySelector(".all-places-list").style.display = "none"
+        document.querySelector(".list-theatres-category").style.display = "table"
     }else if(isPushedButton[5]) {
         document.querySelector(".theatre-button-filter").style.backgroundColor = "#ffffff"
         document.querySelector(".theatre-text-button").style.color = "#72727E"
         $(".theatre-new-icon").addClass("theatre-text-button").removeClass("theatre-new-icon")
+        document.querySelector(".list-theatres-category").style.display = "none"
+        document.querySelector(".all-places-list").style.display = "table"
         isPushedButton[5] = false
     }
 }
@@ -166,10 +174,14 @@ function changeColorOnMuseumButtonFilter(){
         changeColorOnRestaurantButtonFilter()
         changeColorOnTheatreButtonFilter()
         changeColorOnMomumentButtonFilter()
+        document.querySelector(".all-places-list").style.display = "none"
+        document.querySelector(".list-museums-category").style.display = "table"
     }else if(isPushedButton[6]) {
         document.querySelector(".museum-button-filter").style.backgroundColor = "#ffffff"
         document.querySelector(".museum-text-button").style.color = "#72727E"
         $(".museum-new-icon").addClass("museum-text-button").removeClass("museum-new-icon")
+        document.querySelector(".list-museums-category").style.display = "none"
+        document.querySelector(".all-places-list").style.display = "table"
         isPushedButton[6] = false
     }
 }
@@ -187,10 +199,14 @@ function changeColorOnMomumentButtonFilter(){
         changeColorOnRestaurantButtonFilter()
         changeColorOnTheatreButtonFilter()
         changeColorOnMuseumButtonFilter()
+        document.querySelector(".all-places-list").style.display = "none"
+        document.querySelector(".list-memorials-category").style.display = "table"
     }else if(isPushedButton[7]) {
         document.querySelector(".monument-button-filter").style.backgroundColor = "#ffffff"
         document.querySelector(".monument-text-button").style.color = "#72727E"
         $(".monument-new-icon").addClass("monument-text-button").removeClass("monument-new-icon")
+        document.querySelector(".list-memorials-category").style.display = "none"
+        document.querySelector(".all-places-list").style.display = "table"
         isPushedButton[7] = false
     }
 }

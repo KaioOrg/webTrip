@@ -15,37 +15,42 @@ $labelsPlaces = array(
             <img class="items-image-places" src="static/images/<?php echo $value[0]?>" alt="">
             <h4 class="name-place-section-all-places"><?php echo $name_place?></h4>
             <p class="name-street-place">Уфа, <?php echo $value[1]?></p>
-            <img class="heart-icon" src="static/images/icons/heartIcon.png" alt="">
             <p class="score-count-text"><?php echo $value[2]?></p>
-        </a></li>
+        </a>
+        <button class="button-heart" type="submit"></button>
+        </li>
         <?php
         } ?>
     <li class="searched-place-item"><a href="backEnd/hotelsCategory.php">
         <img class="items-image-places" src="static/images/mallsPlaces/planetaMall.png" alt="">
             <h4 class="name-place-section-all-places">Торговый центр Планета</h4>
             <p class="name-street-place">Уфа, Энтузиастов 20</p>
-            <img class="heart-icon" src="static/images/icons/heartIcon.png" alt="">
-            <p class="score-count-text">5,0</p>
-    </a></li>
+            <p class="score-count-text score-hotel-hilton-text">5,0</p>
+    </a>
+    <button class="button-heart" type="submit"></button>
+    </li>
     <li class="searched-place-item"><a href="backEnd/hotelsCategory.php">
         <img class="items-image-places" src="static/images/mallsPlaces/iremelMall.png" alt="">
             <h4 class="name-place-section-all-places">Торговый центр Иремель</h4>
             <p class="name-street-place">Уфа, Рубежная 174</p>
-            <img class="heart-icon" src="static/images/icons/heartIcon.png" alt="">
-            <p class="score-count-text">3,9</p>
-    </a></li>
+            <p class="score-count-text score-hotel-hilton-text">3,9</p>
+    </a>
+    <button class="button-heart" type="submit"></button>
+    </li>
     <li class="searched-place-item"><a href="backEnd/hotelsCategory.php">
         <img class="items-image-places" src="static/images/mallsPlaces/lifestyleMall.png" alt="">
             <h4 class="name-place-section-all-places">Лайфстайл центр Башкирия</h4>
             <p class="name-street-place">Уфа, Менделеева 205А</p>
-            <img class="heart-icon" src="static/images/icons/heartIcon.png" alt="">
-            <p class="score-count-text">4,7</p>
-    </a></li>
+            <p class="score-count-text score-hotel-hilton-text">4,7</p>
+    </a>
+    <button class="button-heart" type="submit"></button>
+    </li>
     <li class="searched-place-item"><a href="backEnd/hotelsCategory.php">
         <img class="items-image-places" src="static/images/mallsPlaces/galleryartMall.png" alt="">
             <h4 class="name-place-section-all-places">Торговый центр Галерея Art</h4>
             <p class="name-street-place">Уфа, Чернышевского 75</p>
-            <img class="heart-icon" src="static/images/icons/heartIcon.png" alt="">
-            <p class="score-count-text">4,6</p>
-    </a></li>
+            <p class="score-count-text score-hotel-hilton-text">4,6</p>
+    </a>
+    <button class="button-heart" type="submit"></button>
+    </li>
 </ul>

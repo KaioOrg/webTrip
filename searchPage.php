@@ -7,6 +7,7 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <script defer src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
     <script src="scripts/logicMainPage.js"></script>
+    <script src="scripts/searchOnPage.js"></script>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Fira+Mono:wght@400;500;700&family=Oswald:wght@200..700&display=swap" rel="stylesheet">
@@ -20,8 +21,8 @@
     <a href="#"><img class="notifications-icon" src="static/images/icons/notificationIconFull.png" alt=""></a>
     <h2 class="nameSearchPage">Поиск</h2>
     <form action="" method="get">
-        <input name="s" placeholder="Поиск места..." type="search">
-<!--        <button class="search-place-button" type="submit"><img class="search-icon-image" src="static/images/searchIcon.png" alt=""></button>-->
+        <input id="searchBox" oninput="liveSearch()" placeholder="Поиск места..." type="search">
+        <button class="search-place-button" type="submit"><img class="search-icon-image" src="static/images/icons/searchIcon.png" alt=""></button>
     </form>
 </header>
 
@@ -46,7 +47,10 @@
         <?php require_once "backEnd/entertainmentCategory.php" ?>
         <?php require_once "backEnd/parkCategory.php" ?>
         <?php require_once "backEnd/mallCategory.php" ?>
-
+        <?php require_once "backEnd/restaurantCategory.php" ?>
+        <?php require_once "backEnd/theatreCategory.php" ?>
+        <?php require_once "backEnd/museumCategory.php" ?>
+        <?php require_once "backEnd/memorialCategory.php" ?>
 </main>
 
 <footer class="footer-main-page">

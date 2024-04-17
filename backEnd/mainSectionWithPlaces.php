@@ -6,7 +6,6 @@ $title = array(
     'Шерлок Холмс'=> array('restaurantsPlaces/sherlockRestaurant.png', ' Чернышевского 75', '4,5'),
     'Парк Победы'=> array('parksPlaces/parkVictory.png', ' Комарова 7', '4,8'),
     'Котокафе "Котейная"'=> array('entertainmentsPlaces/koteynayaEntertainment.png', ' 50-лет Октября 26', '5,0'),
-    'Дом-музей В.И. Ленина'=> array('museumsPlaces/museumLenin.png', ' Достоевского 78', '4,1'),
     'ПроЭкстрим картинг'=> array('entertainmentsPlaces/kartingclubEntertainment.png', ' Минигали Губайдуллина 6', '4,7'),
     'Парк имени Якутова'=> array('parksPlaces/yakutovPark.png', ' Ленина 65/3', '4,3'),
     'Президент отель'=> array('hotelsPlaces/presidentHotel.png', ' Авроры 2', '4,8'),
@@ -19,8 +18,21 @@ $title = array(
     'Флай парк'=> array('entertainmentsPlaces/flyparkEntertainment.png', ' Луганская 1', '5,0'),
     'Ресторан Индокитай'=> array('restaurantsPlaces/indokitayRestaurant.png', ' Коммунистическая 80', '4,7'),
     'Памятник дворнику'=> array('memorialsPlaces/cleanerMemorial.png', ' просп. Октября 4/1', '4,5'),
-    'Торговый центр Планета'=> array('mallsPlaces/planetaMall.png', ' Энтузиастов 20', '5,0'),
     'Парк Кашкадан'=> array('parksPlaces/parkKashkadan.png', ' Маршала Жукова 31', '4,6'),
+    'Странные дела'=> array('entertainmentsPlaces/strangebusienessEntertainment.png', ' Ленина 156', '5,0'),
+    'Warpoint'=> array('entertainmentsPlaces/warpointEntertainment.png', ' Степана Кувыкина 18', '5,0'),
+    "Papa's club"=> array('entertainmentsPlaces/papasclubEntertainment.png', ' Кавказская, 6/8', '4,8'),
+    'Клуб BadHouse'=> array('entertainmentsPlaces/badhouseEntertainment.png', ' Комсомольская 18', '4,4'),
+    'Отель Azimut'=> array('hotelsPlaces/azimutHotel.png', ' просп. Октября 81', '4,8'),
+    'Амакс Сити Отель'=> array('hotelsPlaces/amaksHotel.png', ' Рихарда Зорге 17', '4,5'),
+    'Ресторан Щепка'=> array('restaurantsPlaces/splinterRestaurant.png', ' Рихарда Зорге 64/1', '4,8'),
+    'Ресторан Россинский'=> array('restaurantsPlaces/rossinskiyRestaurant.png', ' Цурюпы 7', '4,6'),
+    'Торговый центр Мега'=> array('mallsPlaces/megaMall.png', ' Рубежная 174', '3,9'),
+    'Торговый центр Семья'=> array('mallsPlaces/familyMall.png', ' просп. Октября 34', '4,7'),
+    'Торговый центр Ultra'=> array('mallsPlaces/ultraMall.png', ' Бакалинская 27', '4,9'),
+    'Ресторан Оджахури'=> array('restaurantsPlaces/odshahuriRestaurant.png', ' Чернышевского 88', '5,0'),
+    'Ресторан Холодец'=> array('restaurantsPlaces/holodecRestaurant.png', ' Комсомольская 105', '4,8'),
+    'Ресторан Marco Polo'=> array('restaurantsPlaces/marcoPoloRestaurant.png', ' Чернышевского 75', '5,0'),
 );
 
 ?>
@@ -32,65 +44,274 @@ $title = array(
             <img class="items-image-places" src="static/images/<?php echo $value[0]?>" alt="">
             <h4 class="name-place-section-all-places"><?php echo $name_place?></h4>
             <p class="name-street-place">Уфа, <?php echo $value[1]?></p>
-            <img class="heart-icon" src="static/images/icons/heartIcon.png" alt="">
             <p class="score-count-text"><?php echo $value[2]?></p>
-        </a></li>
+        </a>
+        <button class="button-heart" type="submit"></button>
+        </li>
         <?php
         } ?>
+    <li class="searched-place-item"><a href="backEnd/hotelsCategory.php">
+         <img class="items-image-places" src="static/images/museumsPlaces/museumLenin.png" alt="">
+            <h4 class="name-place-section-all-places">Дом-музей В.И. Ленина</h4>
+            <p class="name-street-place">Уфа, Достоевского 78</p>
+            <p class="score-count-text score-hotel-hilton-text">4,1</p> 
+    </a>
+    <button class="button-heart" type="submit"></button>
+    </li>
     <li class="searched-place-item"><a href="backEnd/hotelsCategory.php">
          <img class="items-image-places" src="static/images/memorialsPlaces/memorilSalavat.png" alt="">
             <h4 class="name-place-section-all-places">Памятник Салавату Юлаеву</h4>
             <p class="name-street-place">Уфа, Тубинская 3</p>
-            <img class="heart-icon" src="static/images/icons/heartIcon.png" alt="">
-            <p class="score-count-text">5,0</p> 
-    </a></li>
+            <p class="score-count-text score-hotel-hilton-text">5,0</p> 
+    </a>
+    <button class="button-heart" type="submit"></button>
+    </li>
+    <li class="searched-place-item"><a href="backEnd/hotelsCategory.php">
+         <img class="items-image-places" src="static/images/mallsPlaces/planetaMall.png" alt="">
+            <h4 class="name-place-section-all-places">Торговый центр Планета</h4>
+            <p class="name-street-place">Уфа, Энтузиастов 20</p>
+            <p class="score-count-text score-hotel-hilton-text">5,0</p> 
+    </a>
+    <button class="button-heart" type="submit"></button>
+    </li>
     <li class="searched-place-item"><a href="backEnd/hotelsCategory.php">
         <img class="items-image-places" src="static/images/theatresPlaces/toysTheatre.png" alt="">
             <h4 class="name-place-section-all-places">Башкирский государственный театр кукол</h4>
             <p class="name-street-place">Уфа, просп. Октября 158</p>
-            <img class="heart-icon" src="static/images/icons/heartIcon.png" alt="">
-            <p class="score-count-text">4,4</p>
-    </a></li>
+            <p class="score-count-text score-entertainment-text">4,4</p>
+    </a>
+    <button class="button-heart" type="submit"></button>
+    </li>
     <li class="searched-place-item"><a href="backEnd/hotelsCategory.php">
         <img class="items-image-places" src="static/images/museumsPlaces/myhistoryMuseum.png" alt="">
             <h4 class="name-place-section-all-places">Исторический парк "Россия - моя история"</h4>
             <p class="name-street-place">Уфа, Менделеева 158</p>
-            <img class="heart-icon" src="static/images/icons/heartIcon.png" alt="">
-            <p class="score-count-text">4,4</p>
-    </a></li>
+            <p class="score-count-text score-entertainment-text">4,4</p>
+    </a>
+    <button class="button-heart" type="submit"></button>
+    </li>
     <li class="searched-place-item"><a href="backEnd/hotelsCategory.php">
         <img class="items-image-places" src="static/images/theatresPlaces/dramTheatre.png" alt="">
-            <h4 class="name-place-section-all-places">Государственный академический русский драматический театр Республики Башкортостан</h4>
+            <h4 class="name-place-section-all-places changed-label-place">Государственный академический русский драматический театр Республики Башкортостан</h4>
             <p class="name-street-place">Уфа, просп. Октября 79</p>
-            <img class="heart-icon" src="static/images/icons/heartIcon.png" alt="">
-            <p class="score-count-text">4,9</p>
-    </a></li>
+            <p class="score-count-text score-hotel-hilton-text">4,9</p>
+    </a>
+    <button class="button-heart" type="submit"></button>
+    </li>
     <li class="searched-place-item"><a href="backEnd/hotelsCategory.php">
         <img class="items-image-places" src="static/images/parksPlaces/vatanPark.png" alt="">
             <h4 class="name-place-section-all-places">Этнический парк Ватан</h4>
             <p class="name-street-place">Уфа, Заки Валиди 2А</p>
-            <img class="heart-icon" src="static/images/icons/heartIcon.png" alt="">
-            <p class="score-count-text">4,2</p>
-    </a></li>
+            <p class="score-count-text score-hotel-hilton-text">4,2</p>
+    </a>
+    <button class="button-heart" type="submit"></button>
+    </li>
     <li class="searched-place-item"><a href="backEnd/hotelsCategory.php">
         <img class="items-image-places" src="static/images/parksPlaces/woodPark.png" alt="">
             <h4 class="name-place-section-all-places">Парк Лесоводов Башкирии</h4>
-            <p class="name-street-place">Уфа, лесопарк имени Лесоводов Башкирии</p>
-            <img class="heart-icon" src="static/images/icons/heartIcon.png" alt="">
-            <p class="score-count-text">4,0</p>
-    </a></li>
+            <p class="name-street-place little-street-name">Уфа, лесопарк им. Лесоводов Башкирии</p>
+            <p class="score-count-text score-hotel-hilton-text">4,0</p>
+    </a>
+    <button class="button-heart" type="submit"></button>
+    </li>
     <li class="searched-place-item"><a href="backEnd/hotelsCategory.php">
         <img class="items-image-places" src="static/images/museumsPlaces/shulgantashMuseum.png" alt="">
             <h4 class="name-place-section-all-places">Музейный комплекс Пещера Шульган-Таш</h4>
             <p class="name-street-place">Уфа, Чернышевского 47</p>
-            <img class="heart-icon" src="static/images/icons/heartIcon.png" alt="">
-            <p class="score-count-text">4,9</p>
-    </a></li>
+            <p class="score-count-text score-hotel-hilton-text">4,9</p>
+    </a>
+    <button class="button-heart" type="submit"></button>
+    </li>
     <li class="searched-place-item"><a href="backEnd/hotelsCategory.php">
         <img class="items-image-places" src="static/images/theatresPlaces/nurTheatre.png" alt="">
             <h4 class="name-place-section-all-places">Уфимский государственный татарский театр Нур</h4>
             <p class="name-street-place">Уфа, 50-лет СССР 36</p>
-            <img class="heart-icon" src="static/images/icons/heartIcon.png" alt="">
-            <p class="score-count-text">4,7</p>
-    </a></li>
+            <p class="score-count-text score-entertainment-text">4,7</p>
+    </a>
+    <button class="button-heart" type="submit"></button>
+    </li>
+    <li class="searched-place-item"><a href="backEnd/hotelsCategory.php">
+        <img class="items-image-places" src="static/images/memorialsPlaces/matrosovMemorial.png" alt="">
+            <h4 class="name-place-section-all-places">Памятник Александру Матросову</h4>
+            <p class="name-street-place">Уфа, сад Александра Матросова</p>
+            <p class="score-count-text score-hotel-hilton-text">5,0</p>
+    </a>
+    <button class="button-heart" type="submit"></button>
+    </li>
+    <li class="searched-place-item"><a href="backEnd/hotelsCategory.php">
+         <img class="items-image-places" src="static/images/memorialsPlaces/zagirMemorial.png" alt="">
+            <h4 class="name-place-section-all-places">Памятник Загиру Исмагилову</h4>
+            <p class="name-street-place">Уфа, Ленина, 5, корп. 1</p>
+            <p class="score-count-text score-hotel-hilton-text">4,6</p> 
+    </a>
+    <button class="button-heart" type="submit"></button>
+    </li>
+    <li class="searched-place-item"><a href="backEnd/hotelsCategory.php">
+         <img class="items-image-places" src="static/images/memorialsPlaces/mayakovskiMemorial.png" alt="">
+            <h4 class="name-place-section-all-places">Памятник В.В. Маяковскому</h4>
+            <p class="name-street-place">Уфа, сквер им. В.В. Маяковского</p>
+            <p class="score-count-text score-hotel-hilton-text">4,2</p> 
+    </a>
+    <button class="button-heart" type="submit"></button>
+    </li>
+    <li class="searched-place-item"><a href="backEnd/hotelsCategory.php">
+         <img class="items-image-places" src="static/images/memorialsPlaces/mustaiKarimMemorial.png" alt="">
+            <h4 class="name-place-section-all-places">Памятник Мустаю Кариму</h4>
+            <p class="name-street-place">Уфа, площадь имени Мустая Карима</p>
+            <p class="score-count-text score-hotel-hilton-text">5,0</p> 
+    </a>
+    <button class="button-heart" type="submit"></button>
+    </li>
+    <li class="searched-place-item"><a href="backEnd/hotelsCategory.php">
+         <img class="items-image-places" src="static/images/memorialsPlaces/gafuriMemorial.png" alt="">
+            <h4 class="name-place-section-all-places">Памятник Мажиту Гафиру</h4>
+            <p class="name-street-place">Уфа, 50-лет СССР 36</p>
+            <p class="score-count-text score-hotel-hilton-text">4,9</p> 
+    </a>
+    <button class="button-heart" type="submit"></button>
+    </li>
+    <li class="searched-place-item"><a href="backEnd/hotelsCategory.php">
+        <img class="items-image-places" src="static/images/theatresPlaces/mustaKarimaTheatre.png" alt="">
+            <h4 class="name-place-section-all-places">Национальный молодёжный театр им. М. Карима</h4>
+            <p class="name-street-place">Уфа,  Ленина, 62</p>
+            <p class="score-count-text score-entertainment-text">4,6</p>
+    </a>
+    <button class="button-heart" type="submit"></button>
+    </li>
+    <li class="searched-place-item"><a href="backEnd/hotelsCategory.php">
+        <img class="items-image-places" src="static/images/theatresPlaces/gafuriTheatre.png" alt="">
+            <h4 class="name-place-section-all-places changed-label-place">Башкирский государственный академический театр драмы им. М. Гафури</h4>
+            <p class="name-street-place">Уфа, Заки Валиди, 34</p>
+            <p class="score-count-text score-hotel-hilton-text">4,8</p>
+    </a>
+    <button class="button-heart" type="submit"></button>
+    </li>
+    <li class="searched-place-item"><a href="backEnd/hotelsCategory.php">
+         <img class="items-image-places" src="static/images/entertainmentsPlaces/peintbollEntertainment.png" alt="">
+            <h4 class="name-place-section-all-places">Пейнтбольный парк Рубикон</h4>
+            <p class="name-street-place">Уфа, Комарова 1/2</p>
+            <p class="score-count-text score-hotel-hilton-text">4,9</p> 
+    </a>
+    <button class="button-heart" type="submit"></button>
+    </li>
+    <li class="searched-place-item"><a href="backEnd/hotelsCategory.php">
+        <img class="items-image-places" src="static/images/museumsPlaces/nesterovMuseum.png" alt="">
+            <h4 class="name-place-section-all-places changed-label-place">Башкирский государственный художественный музей им. М. В. Нестерова</h4>
+            <p class="name-street-place">Уфа, Гоголя 27</p>
+            <p class="score-count-text score-hotel-hilton-text">4,6</p>
+    </a>
+    <button class="button-heart" type="submit"></button>
+    </li>
+    <li class="searched-place-item"><a href="backEnd/hotelsCategory.php">
+        <img class="items-image-places" src="static/images/museumsPlaces/zooMuseum.png" alt="">
+            <h4 class="name-place-section-all-places changed-label-place">Зоологический музей Башкирского государственного университета</h4>
+            <p class="name-street-place">Уфа, Заки Валиди 32</p>
+            <p class="score-count-text score-hotel-hilton-text">4,4</p>
+    </a>
+    <button class="button-heart" type="submit"></button>
+    </li>
+    <li class="searched-place-item"><a href="backEnd/hotelsCategory.php">
+        <img class="items-image-places" src="static/images/museumsPlaces/museumArchaeology.png" alt="">
+            <h4 class="name-place-section-all-places">Музей археологии и этнографии</h4>
+            <p class="name-street-place">Уфа, Карла Маркса 6</p>
+            <p class="score-count-text score-hotel-hilton-text">4,6</p>
+    </a>
+    <button class="button-heart" type="submit"></button>
+    </li>
+    <li class="searched-place-item"><a href="backEnd/hotelsCategory.php">
+         <img class="items-image-places" src="static/images/hotelsPlaces/hiltongardenHotel.png" alt="">
+            <h4 class="name-place-section-all-places">Hilton Garden Inn Ufa Riverside</h4>
+            <p class="name-street-place">Уфа, Аксакова 4</p>
+            <p class="score-count-text score-hotel-hilton-text">4,5</p> 
+    </a>
+    <button class="button-heart" type="submit"></button>
+    </li>
+    <li class="searched-place-item"><a href="backEnd/hotelsCategory.php">
+         <img class="items-image-places" src="static/images/hotelsPlaces/sheratonplazaHotel.png" alt="">
+            <h4 class="name-place-section-all-places">Sheratonplaza Ufa Congress Hotel</h4>
+            <p class="name-street-place">Уфа, Цурюпы 7</p>
+            <p class="score-count-text score-hotel-hilton-text">5,0</p> 
+    </a>
+    <button class="button-heart" type="submit"></button>
+    </li>
+    <li class="searched-place-item"><a href="backEnd/hotelsCategory.php">
+         <img class="items-image-places" src="static/images/parksPlaces/gardenAksakova.png" alt="">
+            <h4 class="name-place-section-all-places">Сад культуры и отдыха им. Аксакова</h4>
+            <p class="name-street-place little-street-name">Уфа, сад культуры и отдыха им. Аксакова</p>
+            <p class="score-count-text score-hotel-hilton-text">4,4</p> 
+    </a>
+    <button class="button-heart" type="submit"></button>
+    </li>
+    <li class="searched-place-item"><a href="backEnd/hotelsCategory.php">
+         <img class="items-image-places" src="static/images/parksPlaces/gardenSalavat.png" alt="">
+            <h4 class="name-place-section-all-places">Сад имени Салавата Юлаева</h4>
+            <p class="name-street-place">Уфа, Салавата 22</p>
+            <p class="score-count-text score-hotel-hilton-text">4,7</p> 
+    </a>
+    <button class="button-heart" type="submit"></button>
+    </li>
+    <li class="searched-place-item"><a href="backEnd/hotelsCategory.php">
+         <img class="items-image-places" src="static/images/parksPlaces/matrosovaPark.png" alt="">
+            <h4 class="name-place-section-all-places">Сад Александра Матросова</h4>
+            <p class="name-street-place">Уфа, Тукаева 23</p>
+            <p class="score-count-text score-hotel-hilton-text">4,5</p> 
+    </a>
+    <button class="button-heart" type="submit"></button>
+    </li>
+    <li class="searched-place-item"><a href="backEnd/hotelsCategory.php">
+         <img class="items-image-places" src="static/images/parksPlaces/gafuriPark.png" alt="">
+            <h4 class="name-place-section-all-places">Центральный парк культуры и отдыха им. М.Гафури</h4>
+            <p class="name-street-place">Уфа, просп. Октября 77/2в</p>
+            <p class="score-count-text score-entertainment-text">3,9</p> 
+    </a>
+    <button class="button-heart" type="submit"></button>
+    </li>
+    <li class="searched-place-item"><a href="backEnd/hotelsCategory.php">
+         <img class="items-image-places" src="static/images/hotelsPlaces/hamptonHotel.png" alt="">
+            <h4 class="name-place-section-all-places">Отель Hampton by Hilton Ufa</h4>
+            <p class="name-street-place">Уфа, 50-летия Октября 17</p>
+            <p class="score-count-text score-hotel-hilton-text">4,6</p> 
+    </a>
+    <button class="button-heart" type="submit"></button>
+    </li>
+    <li class="searched-place-item"><a href="backEnd/hotelsCategory.php">
+        <img class="items-image-places" src="static/images/mallsPlaces/iremelMall.png" alt="">
+            <h4 class="name-place-section-all-places">Торговый центр Иремель</h4>
+            <p class="name-street-place">Уфа, Рубежная 174</p>
+            <p class="score-count-text score-hotel-hilton-text">3,9</p>
+    </a>
+    <button class="button-heart" type="submit"></button>
+    </li>
+    <li class="searched-place-item"><a href="backEnd/hotelsCategory.php">
+        <img class="items-image-places" src="static/images/mallsPlaces/lifestyleMall.png" alt="">
+            <h4 class="name-place-section-all-places">Лайфстайл центр Башкирия</h4>
+            <p class="name-street-place">Уфа, Менделеева 205А</p>
+            <p class="score-count-text score-hotel-hilton-text">4,7</p>
+    </a>
+    <button class="button-heart" type="submit"></button>
+    </li>
+    <li class="searched-place-item"><a href="backEnd/hotelsCategory.php">
+        <img class="items-image-places" src="static/images/mallsPlaces/galleryartMall.png" alt="">
+            <h4 class="name-place-section-all-places">Торговый центр Галерея Art</h4>
+            <p class="name-street-place">Уфа, Чернышевского 75</p>
+            <p class="score-count-text score-hotel-hilton-text">4,6</p>
+    </a>
+    <button class="button-heart" type="submit"></button>
+    </li>
+    <li class="searched-place-item"><a href="backEnd/hotelsCategory.php">
+        <img class="items-image-places" src="static/images/restaurantsPlaces/dascoGardenRestaurant.png" alt="">
+            <h4 class="name-place-section-all-places">Ресторан Dasco Garden</h4>
+            <p class="name-street-place">Уфа, просп. Октября 77/2</p>
+            <p class="score-count-text score-hotel-hilton-text">4,8</p>
+    </a>
+    <button class="button-heart" type="submit"></button>
+    </li>
+    <li class="searched-place-item"><a href="backEnd/hotelsCategory.php">
+        <img class="items-image-places" src="static/images/restaurantsPlaces/balkanRestaurant.png" alt="">
+            <h4 class="name-place-section-all-places">Ресторан Балкан гриль</h4>
+            <p class="name-street-place">Уфа, Менделеева, 141/2</p>
+            <p class="score-count-text score-hotel-hilton-text">4,7</p>
+    </a>
+    <button class="button-heart" type="submit"></button>
+    </li>
 </ul>

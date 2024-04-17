@@ -51,11 +51,21 @@
         border-radius: 5px;
     }
 
+    .is-hidden{
+        display: none;
+    }
+
     .search-place-button {
         margin-left: 25px;
         padding: 0;
         border: transparent;
         background-color: transparent;
+    }
+
+    .search-icon-image{
+        width: 50px;
+        height: 40px;
+        border-radius: 10px;
     }
 
     .categories-chapter {
@@ -251,6 +261,30 @@
         padding-left: 0;
     }
 
+    .list-restaurants-category{
+        margin: auto;
+        display: none;
+        padding-left: 0;
+    }
+
+    .list-theatres-category{
+        margin: auto;
+        display: none;
+        padding-left: 0;
+    }
+
+    .list-museums-category{
+        margin: auto;
+        display: none;
+        padding-left: 0;
+    }
+
+    .list-memorials-category{
+        margin: auto;
+        display: none;
+        padding-left: 0;
+    }
+
     .searched-place-item {
         width: 365px;
         height: 112px;
@@ -272,7 +306,7 @@
 
     .name-place-section-all-places {
         color: #141B41;
-        font-weight: 400;
+        font-weight: 350;
         font-size: 16px;
         margin: 10px 0 10px 15px;
         width: 200px;
@@ -280,15 +314,20 @@
         position: absolute;
         top: 5px;
         left: 125px;
-        }
+    }
 
-    .heart-icon {
+    .button-heart{
+        border: none;
+        background-image: url("../static/images/icons/heartIcon.png");
+        background-color: transparent;
         width: 25px;
         height: 25px;
         margin: 10px 0 0 30px;
         position: absolute;
+        background-size: cover;
         top: 5px;
         left: 315px;
+        padding: 0;
     }
 
     .name-street-place {
@@ -296,18 +335,35 @@
         color: #72727E;
         margin: 0;
         top: 101px;
-        left: 145px;
+        left: 142px;
         width: 300px;
         display: flex;
         position: absolute;
     }
 
+    .little-street-name{
+        font-size: 10px;
+    }
+
+    .changed-label-place{
+        font-size: 11px;
+        font-weight: 500;
+    }
+
     .score-count-text {
-        top: 30px;
-        left: 145px;
+        top: 28px;
+        left: 142px;
         color: #141B41;
         font-size: 14px;
         position: absolute;
+    }
+
+    .score-hotel-hilton-text{
+        top: 45px;
+    }
+
+    .score-entertainment-text{
+        top: 62px;
     }
 
     .score-count-text::after {
