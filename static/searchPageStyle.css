@@ -330,6 +330,20 @@
         padding: 0;
     }
 
+    .button-heart-changed{
+        border: none;
+        background-image: url("../static/images/icons/heartIconFull.png");
+        background-color: transparent;
+        width: 25px;
+        height: 25px;
+        margin: 10px 0 0 30px;
+        position: absolute;
+        background-size: cover;
+        top: 5px;
+        left: 315px;
+        padding: 0;
+    }
+
     .name-street-place {
         font-size: 12px;
         color: #72727E;
@@ -424,6 +438,24 @@
         font-weight: 500;
         margin-top: 50px;
         margin-bottom: 30px;
+    }
+
+    .nameSearchPage {
+        font-size: 24px;
+        font-weight: 500;
+        margin-top: 25px;
+        margin-bottom: 50px;
+        display: flex;
+        justify-content: center;
+        color: #141B41;
+    }
+
+    .label-text-categories {
+        margin-top: 0;
+        margin-bottom: 20px;
+        font-size: 14px;
+        color: #141B41;
+        font-weight: 500;
     }
 
     .image-user {
@@ -602,6 +634,46 @@
         background-size: 25px 20px;
         width: 25px;
         height: 20px;
+    }
+
+    .name-place-section-all-places {
+        color: #141B41;
+        font-weight: 350;
+        font-size: 13px;
+        margin: 10px 0 10px 15px;
+        width: 190px;
+        height: 40px;
+        position: absolute;
+        top: 5px;
+        left: 125px;
+    }
+
+    .name-street-place {
+        font-size: 10px;
+        color: #72727E;
+        margin: 0;
+        top: 101px;
+        left: 142px;
+        width: 300px;
+        display: flex;
+        position: absolute;
+    }
+
+    .little-street-name{
+        font-size: 9px;
+    }
+
+    .changed-label-place{
+        font-size: 10px;
+        font-weight: 500;
+    }
+
+    .score-hotel-hilton-text{
+        top: 35px;
+    }
+
+    .score-entertainment-text{
+        top: 60px;
     }
 
     .footer-main-page {

@@ -34,19 +34,18 @@ $title = array(
     'Ресторан Холодец'=> array('restaurantsPlaces/holodecRestaurant.png', ' Комсомольская 105', '4,8'),
     'Ресторан Marco Polo'=> array('restaurantsPlaces/marcoPoloRestaurant.png', ' Чернышевского 75', '5,0'),
 );
-
 ?>
 <ul class="all-places-list">
-    <p class="count-finded-places">Все места</p>    
+    <p class="count-finded-places">Все места</p>
     <?php foreach ($title as $name_place => $value){
         ?>
-        <li class="searched-place-item"><a href="backEnd/hotelsCategory.php">
+        <li class="searched-place-item"><a href="informationAboutPlaces.php">
             <img class="items-image-places" src="static/images/<?php echo $value[0]?>" alt="">
             <h4 class="name-place-section-all-places"><?php echo $name_place?></h4>
             <p class="name-street-place">Уфа, <?php echo $value[1]?></p>
             <p class="score-count-text"><?php echo $value[2]?></p>
         </a>
-        <button class="button-heart" type="submit"></button>
+        <!-- <button class="button-heart" type="submit"></button> -->
         </li>
         <?php
         } ?>
@@ -56,7 +55,7 @@ $title = array(
             <p class="name-street-place">Уфа, Достоевского 78</p>
             <p class="score-count-text score-hotel-hilton-text">4,1</p> 
     </a>
-    <button class="button-heart" type="submit"></button>
+    <!-- <button class="button-heart" type="submit"></button> -->
     </li>
     <li class="searched-place-item"><a href="backEnd/hotelsCategory.php">
          <img class="items-image-places" src="static/images/memorialsPlaces/memorilSalavat.png" alt="">
@@ -64,7 +63,7 @@ $title = array(
             <p class="name-street-place">Уфа, Тубинская 3</p>
             <p class="score-count-text score-hotel-hilton-text">5,0</p> 
     </a>
-    <button class="button-heart" type="submit"></button>
+    <!-- <button class="button-heart" type="submit"></button> -->
     </li>
     <li class="searched-place-item"><a href="backEnd/hotelsCategory.php">
          <img class="items-image-places" src="static/images/mallsPlaces/planetaMall.png" alt="">
@@ -72,7 +71,7 @@ $title = array(
             <p class="name-street-place">Уфа, Энтузиастов 20</p>
             <p class="score-count-text score-hotel-hilton-text">5,0</p> 
     </a>
-    <button class="button-heart" type="submit"></button>
+    <!-- <button class="button-heart" type="submit"></button> -->
     </li>
     <li class="searched-place-item"><a href="backEnd/hotelsCategory.php">
         <img class="items-image-places" src="static/images/theatresPlaces/toysTheatre.png" alt="">
@@ -80,7 +79,7 @@ $title = array(
             <p class="name-street-place">Уфа, просп. Октября 158</p>
             <p class="score-count-text score-entertainment-text">4,4</p>
     </a>
-    <button class="button-heart" type="submit"></button>
+    <!-- <button class="button-heart" type="submit"></button> -->
     </li>
     <li class="searched-place-item"><a href="backEnd/hotelsCategory.php">
         <img class="items-image-places" src="static/images/museumsPlaces/myhistoryMuseum.png" alt="">
@@ -88,7 +87,7 @@ $title = array(
             <p class="name-street-place">Уфа, Менделеева 158</p>
             <p class="score-count-text score-entertainment-text">4,4</p>
     </a>
-    <button class="button-heart" type="submit"></button>
+    <!-- <button class="button-heart" type="submit"></button> -->
     </li>
     <li class="searched-place-item"><a href="backEnd/hotelsCategory.php">
         <img class="items-image-places" src="static/images/theatresPlaces/dramTheatre.png" alt="">
@@ -96,7 +95,7 @@ $title = array(
             <p class="name-street-place">Уфа, просп. Октября 79</p>
             <p class="score-count-text score-hotel-hilton-text">4,9</p>
     </a>
-    <button class="button-heart" type="submit"></button>
+    <!-- <button class="button-heart" type="submit"></button> -->
     </li>
     <li class="searched-place-item"><a href="backEnd/hotelsCategory.php">
         <img class="items-image-places" src="static/images/parksPlaces/vatanPark.png" alt="">
@@ -104,7 +103,7 @@ $title = array(
             <p class="name-street-place">Уфа, Заки Валиди 2А</p>
             <p class="score-count-text score-hotel-hilton-text">4,2</p>
     </a>
-    <button class="button-heart" type="submit"></button>
+    <!-- <button class="button-heart" type="submit"></button> -->
     </li>
     <li class="searched-place-item"><a href="backEnd/hotelsCategory.php">
         <img class="items-image-places" src="static/images/parksPlaces/woodPark.png" alt="">
@@ -112,7 +111,7 @@ $title = array(
             <p class="name-street-place little-street-name">Уфа, лесопарк им. Лесоводов Башкирии</p>
             <p class="score-count-text score-hotel-hilton-text">4,0</p>
     </a>
-    <button class="button-heart" type="submit"></button>
+    <!-- <button class="button-heart" type="submit"></button> -->
     </li>
     <li class="searched-place-item"><a href="backEnd/hotelsCategory.php">
         <img class="items-image-places" src="static/images/museumsPlaces/shulgantashMuseum.png" alt="">
@@ -120,7 +119,7 @@ $title = array(
             <p class="name-street-place">Уфа, Чернышевского 47</p>
             <p class="score-count-text score-hotel-hilton-text">4,9</p>
     </a>
-    <button class="button-heart" type="submit"></button>
+    <!-- <button class="button-heart" type="submit"></button> -->
     </li>
     <li class="searched-place-item"><a href="backEnd/hotelsCategory.php">
         <img class="items-image-places" src="static/images/theatresPlaces/nurTheatre.png" alt="">
@@ -128,7 +127,7 @@ $title = array(
             <p class="name-street-place">Уфа, 50-лет СССР 36</p>
             <p class="score-count-text score-entertainment-text">4,7</p>
     </a>
-    <button class="button-heart" type="submit"></button>
+    <!-- <button class="button-heart" type="submit"></button> -->
     </li>
     <li class="searched-place-item"><a href="backEnd/hotelsCategory.php">
         <img class="items-image-places" src="static/images/memorialsPlaces/matrosovMemorial.png" alt="">
@@ -136,7 +135,7 @@ $title = array(
             <p class="name-street-place">Уфа, сад Александра Матросова</p>
             <p class="score-count-text score-hotel-hilton-text">5,0</p>
     </a>
-    <button class="button-heart" type="submit"></button>
+    <!-- <button class="button-heart" type="submit"></button> -->
     </li>
     <li class="searched-place-item"><a href="backEnd/hotelsCategory.php">
          <img class="items-image-places" src="static/images/memorialsPlaces/zagirMemorial.png" alt="">
@@ -144,7 +143,7 @@ $title = array(
             <p class="name-street-place">Уфа, Ленина, 5, корп. 1</p>
             <p class="score-count-text score-hotel-hilton-text">4,6</p> 
     </a>
-    <button class="button-heart" type="submit"></button>
+    <!-- <button class="button-heart" type="submit"></button> -->
     </li>
     <li class="searched-place-item"><a href="backEnd/hotelsCategory.php">
          <img class="items-image-places" src="static/images/memorialsPlaces/mayakovskiMemorial.png" alt="">
@@ -152,7 +151,7 @@ $title = array(
             <p class="name-street-place">Уфа, сквер им. В.В. Маяковского</p>
             <p class="score-count-text score-hotel-hilton-text">4,2</p> 
     </a>
-    <button class="button-heart" type="submit"></button>
+    <!-- <button class="button-heart" type="submit"></button> -->
     </li>
     <li class="searched-place-item"><a href="backEnd/hotelsCategory.php">
          <img class="items-image-places" src="static/images/memorialsPlaces/mustaiKarimMemorial.png" alt="">
@@ -160,7 +159,7 @@ $title = array(
             <p class="name-street-place">Уфа, площадь имени Мустая Карима</p>
             <p class="score-count-text score-hotel-hilton-text">5,0</p> 
     </a>
-    <button class="button-heart" type="submit"></button>
+    <!-- <button class="button-heart" type="submit"></button> -->
     </li>
     <li class="searched-place-item"><a href="backEnd/hotelsCategory.php">
          <img class="items-image-places" src="static/images/memorialsPlaces/gafuriMemorial.png" alt="">
@@ -168,7 +167,7 @@ $title = array(
             <p class="name-street-place">Уфа, 50-лет СССР 36</p>
             <p class="score-count-text score-hotel-hilton-text">4,9</p> 
     </a>
-    <button class="button-heart" type="submit"></button>
+    <!-- <button class="button-heart" type="submit"></button> -->
     </li>
     <li class="searched-place-item"><a href="backEnd/hotelsCategory.php">
         <img class="items-image-places" src="static/images/theatresPlaces/mustaKarimaTheatre.png" alt="">
@@ -176,7 +175,7 @@ $title = array(
             <p class="name-street-place">Уфа,  Ленина, 62</p>
             <p class="score-count-text score-entertainment-text">4,6</p>
     </a>
-    <button class="button-heart" type="submit"></button>
+    <!-- <button class="button-heart" type="submit"></button> -->
     </li>
     <li class="searched-place-item"><a href="backEnd/hotelsCategory.php">
         <img class="items-image-places" src="static/images/theatresPlaces/gafuriTheatre.png" alt="">
@@ -184,7 +183,7 @@ $title = array(
             <p class="name-street-place">Уфа, Заки Валиди, 34</p>
             <p class="score-count-text score-hotel-hilton-text">4,8</p>
     </a>
-    <button class="button-heart" type="submit"></button>
+    <!-- <button class="button-heart" type="submit"></button> -->
     </li>
     <li class="searched-place-item"><a href="backEnd/hotelsCategory.php">
          <img class="items-image-places" src="static/images/entertainmentsPlaces/peintbollEntertainment.png" alt="">
@@ -192,7 +191,7 @@ $title = array(
             <p class="name-street-place">Уфа, Комарова 1/2</p>
             <p class="score-count-text score-hotel-hilton-text">4,9</p> 
     </a>
-    <button class="button-heart" type="submit"></button>
+    <!-- <button class="button-heart" type="submit"></button> -->
     </li>
     <li class="searched-place-item"><a href="backEnd/hotelsCategory.php">
         <img class="items-image-places" src="static/images/museumsPlaces/nesterovMuseum.png" alt="">
@@ -200,7 +199,7 @@ $title = array(
             <p class="name-street-place">Уфа, Гоголя 27</p>
             <p class="score-count-text score-hotel-hilton-text">4,6</p>
     </a>
-    <button class="button-heart" type="submit"></button>
+    <!-- <button class="button-heart" type="submit"></button> -->
     </li>
     <li class="searched-place-item"><a href="backEnd/hotelsCategory.php">
         <img class="items-image-places" src="static/images/museumsPlaces/zooMuseum.png" alt="">
@@ -208,7 +207,7 @@ $title = array(
             <p class="name-street-place">Уфа, Заки Валиди 32</p>
             <p class="score-count-text score-hotel-hilton-text">4,4</p>
     </a>
-    <button class="button-heart" type="submit"></button>
+    <!-- <button class="button-heart" type="submit"></button> -->
     </li>
     <li class="searched-place-item"><a href="backEnd/hotelsCategory.php">
         <img class="items-image-places" src="static/images/museumsPlaces/museumArchaeology.png" alt="">
@@ -216,7 +215,7 @@ $title = array(
             <p class="name-street-place">Уфа, Карла Маркса 6</p>
             <p class="score-count-text score-hotel-hilton-text">4,6</p>
     </a>
-    <button class="button-heart" type="submit"></button>
+    <!-- <button class="button-heart" type="submit"></button> -->
     </li>
     <li class="searched-place-item"><a href="backEnd/hotelsCategory.php">
          <img class="items-image-places" src="static/images/hotelsPlaces/hiltongardenHotel.png" alt="">
@@ -224,7 +223,7 @@ $title = array(
             <p class="name-street-place">Уфа, Аксакова 4</p>
             <p class="score-count-text score-hotel-hilton-text">4,5</p> 
     </a>
-    <button class="button-heart" type="submit"></button>
+    <!-- <button class="button-heart" type="submit"></button> -->
     </li>
     <li class="searched-place-item"><a href="backEnd/hotelsCategory.php">
          <img class="items-image-places" src="static/images/hotelsPlaces/sheratonplazaHotel.png" alt="">
@@ -232,7 +231,7 @@ $title = array(
             <p class="name-street-place">Уфа, Цурюпы 7</p>
             <p class="score-count-text score-hotel-hilton-text">5,0</p> 
     </a>
-    <button class="button-heart" type="submit"></button>
+    <!-- <button class="button-heart" type="submit"></button> -->
     </li>
     <li class="searched-place-item"><a href="backEnd/hotelsCategory.php">
          <img class="items-image-places" src="static/images/parksPlaces/gardenAksakova.png" alt="">
@@ -240,7 +239,7 @@ $title = array(
             <p class="name-street-place little-street-name">Уфа, сад культуры и отдыха им. Аксакова</p>
             <p class="score-count-text score-hotel-hilton-text">4,4</p> 
     </a>
-    <button class="button-heart" type="submit"></button>
+    <!-- <button class="button-heart" type="submit"></button> -->
     </li>
     <li class="searched-place-item"><a href="backEnd/hotelsCategory.php">
          <img class="items-image-places" src="static/images/parksPlaces/gardenSalavat.png" alt="">
@@ -248,7 +247,7 @@ $title = array(
             <p class="name-street-place">Уфа, Салавата 22</p>
             <p class="score-count-text score-hotel-hilton-text">4,7</p> 
     </a>
-    <button class="button-heart" type="submit"></button>
+    <!-- <button class="button-heart" type="submit"></button> -->
     </li>
     <li class="searched-place-item"><a href="backEnd/hotelsCategory.php">
          <img class="items-image-places" src="static/images/parksPlaces/matrosovaPark.png" alt="">
@@ -256,7 +255,7 @@ $title = array(
             <p class="name-street-place">Уфа, Тукаева 23</p>
             <p class="score-count-text score-hotel-hilton-text">4,5</p> 
     </a>
-    <button class="button-heart" type="submit"></button>
+    <!-- <button class="button-heart" type="submit"></button> -->
     </li>
     <li class="searched-place-item"><a href="backEnd/hotelsCategory.php">
          <img class="items-image-places" src="static/images/parksPlaces/gafuriPark.png" alt="">
@@ -264,7 +263,7 @@ $title = array(
             <p class="name-street-place">Уфа, просп. Октября 77/2в</p>
             <p class="score-count-text score-entertainment-text">3,9</p> 
     </a>
-    <button class="button-heart" type="submit"></button>
+    <!-- <button class="button-heart" type="submit"></button> -->
     </li>
     <li class="searched-place-item"><a href="backEnd/hotelsCategory.php">
          <img class="items-image-places" src="static/images/hotelsPlaces/hamptonHotel.png" alt="">
@@ -272,7 +271,7 @@ $title = array(
             <p class="name-street-place">Уфа, 50-летия Октября 17</p>
             <p class="score-count-text score-hotel-hilton-text">4,6</p> 
     </a>
-    <button class="button-heart" type="submit"></button>
+    <!-- <button class="button-heart" type="submit"></button> -->
     </li>
     <li class="searched-place-item"><a href="backEnd/hotelsCategory.php">
         <img class="items-image-places" src="static/images/mallsPlaces/iremelMall.png" alt="">
@@ -280,7 +279,7 @@ $title = array(
             <p class="name-street-place">Уфа, Рубежная 174</p>
             <p class="score-count-text score-hotel-hilton-text">3,9</p>
     </a>
-    <button class="button-heart" type="submit"></button>
+    <!-- <button class="button-heart" type="submit"></button> -->
     </li>
     <li class="searched-place-item"><a href="backEnd/hotelsCategory.php">
         <img class="items-image-places" src="static/images/mallsPlaces/lifestyleMall.png" alt="">
@@ -288,7 +287,7 @@ $title = array(
             <p class="name-street-place">Уфа, Менделеева 205А</p>
             <p class="score-count-text score-hotel-hilton-text">4,7</p>
     </a>
-    <button class="button-heart" type="submit"></button>
+    <!-- <button class="button-heart" type="submit"></button> -->
     </li>
     <li class="searched-place-item"><a href="backEnd/hotelsCategory.php">
         <img class="items-image-places" src="static/images/mallsPlaces/galleryartMall.png" alt="">
@@ -296,7 +295,7 @@ $title = array(
             <p class="name-street-place">Уфа, Чернышевского 75</p>
             <p class="score-count-text score-hotel-hilton-text">4,6</p>
     </a>
-    <button class="button-heart" type="submit"></button>
+    <!-- <button class="button-heart" type="submit"></button> -->
     </li>
     <li class="searched-place-item"><a href="backEnd/hotelsCategory.php">
         <img class="items-image-places" src="static/images/restaurantsPlaces/dascoGardenRestaurant.png" alt="">
@@ -304,7 +303,7 @@ $title = array(
             <p class="name-street-place">Уфа, просп. Октября 77/2</p>
             <p class="score-count-text score-hotel-hilton-text">4,8</p>
     </a>
-    <button class="button-heart" type="submit"></button>
+    <!-- <button class="button-heart" type="submit"></button> -->
     </li>
     <li class="searched-place-item"><a href="backEnd/hotelsCategory.php">
         <img class="items-image-places" src="static/images/restaurantsPlaces/balkanRestaurant.png" alt="">
@@ -312,6 +311,6 @@ $title = array(
             <p class="name-street-place">Уфа, Менделеева, 141/2</p>
             <p class="score-count-text score-hotel-hilton-text">4,7</p>
     </a>
-    <button class="button-heart" type="submit"></button>
+    <!-- <button class="button-heart" type="submit"></button> -->
     </li>
 </ul>

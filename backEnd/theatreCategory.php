@@ -6,7 +6,7 @@
             <p class="name-street-place">Уфа, просп. Октября 158</p>
             <p class="score-count-text score-entertainment-text">4,4</p>
     </a>
-    <button class="button-heart" type="submit"></button>
+    <!-- <button class="button-heart" type="submit"></button> -->
     </li>
     <li class="searched-place-item"><a href="backEnd/hotelsCategory.php">
         <img class="items-image-places" src="static/images/theatresPlaces/dramTheatre.png" alt="">
@@ -14,7 +14,7 @@
             <p class="name-street-place">Уфа, просп. Октября 79</p>
             <p class="score-count-text score-hotel-hilton-text">4,9</p>
     </a>
-    <button class="button-heart" type="submit"></button>
+    <!-- <button class="button-heart" type="submit"></button> -->
     </li>
     <li class="searched-place-item"><a href="backEnd/hotelsCategory.php">
         <img class="items-image-places" src="static/images/theatresPlaces/nurTheatre.png" alt="">
@@ -22,7 +22,7 @@
             <p class="name-street-place">Уфа, 50-лет СССР 36</p>
             <p class="score-count-text score-entertainment-text">4,7</p>
     </a>
-    <button class="button-heart" type="submit"></button>
+    <!-- <button class="button-heart" type="submit"></button> -->
     </li>
     <li class="searched-place-item"><a href="backEnd/hotelsCategory.php">
         <img class="items-image-places" src="static/images/theatresPlaces/mustaKarimaTheatre.png" alt="">
@@ -30,7 +30,7 @@
             <p class="name-street-place">Уфа,  Ленина, 62</p>
             <p class="score-count-text score-entertainment-text">4,6</p>
     </a>
-    <button class="button-heart" type="submit"></button>
+    <!-- <button class="button-heart" type="submit"></button> -->
     </li>
     <li class="searched-place-item"><a href="backEnd/hotelsCategory.php">
         <img class="items-image-places" src="static/images/theatresPlaces/gafuriTheatre.png" alt="">
@@ -38,6 +38,6 @@
             <p class="name-street-place">Уфа, Заки Валиди, 34</p>
             <p class="score-count-text score-hotel-hilton-text">4,8</p>
     </a>
-    <button class="button-heart" type="submit"></button>
+    <!-- <button class="button-heart" type="submit"></button> -->
     </li>
 </ul>

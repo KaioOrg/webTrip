@@ -104,7 +104,7 @@
         <li class="footer-list-item"><a href="index.php" class="footer-button"><img class="footer-icon home-icon" src="static/images/icons/homeIconGreen.png" alt=""></a></li>
         <li class="footer-list-item"><a href="searchPage.php" class="footer-button"><img class="footer-icon search-icon" src="static/images/icons/searchIcon2.png" alt=""></a></li>
         <!--<li class="footer-list-item"><a href="#"><img class="footer-icon" src="static/heartIcon.png" alt=""></a></li>-->
-        <li class="footer-list-item"><a href="#" class="footer-button"><img class="footer-icon" src="static/images/icons/notificationIcon.png" alt=""></a></li>
+        <li class="footer-list-item"><a href="notificationsPage.php" class="footer-button"><img class="footer-icon" src="static/images/icons/notificationIcon.png" alt=""></a></li>
         <li class="footer-list-item"><a href="#" class="footer-button"><img class="footer-icon" src="static/images/icons/profileIcon.png" alt=""></a></li>
     </ul>
 </footer>

@@ -18,7 +18,7 @@ $labelsPlaces = array(
             <p class="name-street-place">Уфа, <?php echo $value[1]?></p>
             <p class="score-count-text"><?php echo $value[2]?></p>
         </a>
-        <button class="button-heart" type="submit"></button>
+        <!-- <button class="button-heart" type="submit"></button> -->
         </li>
         <?php
         } ?>
@@ -28,6 +28,6 @@ $labelsPlaces = array(
             <p class="name-street-place">Уфа, Комарова 1/2</p>
             <p class="score-count-text score-hotel-hilton-text">4,9</p> 
     </a>
-    <button class="button-heart" type="submit"></button>
+    <!-- <button class="button-heart" type="submit"></button> -->
     </li>
 </ul>

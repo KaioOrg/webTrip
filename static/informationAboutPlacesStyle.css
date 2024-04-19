@@ -1,0 +1,452 @@
+@media (max-width: 445px){
+    .arrow-back-page{
+        border: none;
+        background-color: transparent;
+        background-image: url("../static/images/icons/arrowLeftIcon.png");
+        background-size: 50px 45px;
+        position: absolute;
+        top: 0px;
+        left: 0px;
+        padding: 0;
+        width: 50px;
+        height: 45px;
+    }
+
+    .main-image-with-name{
+        width: 445px;
+        height: 355px;
+        margin-bottom: 5px;
+    }
+
+    .main-image-place{
+        width: 445px;
+        height: 350px;
+        position: absolute;
+        border-radius: 1% 1% 15% 1%;
+        box-shadow: 0px -100px 69px -63px rgba(44, 57, 67, 0.6) inset;
+        z-index: -1;
+        top: 0;
+        left: 0;
+    }
+
+    .image-container{
+        width: 445px;
+        height: 350px;
+        position: absolute;
+        border-radius: 1% 1% 15% 1%;
+        box-shadow: 0px -100px 69px -63px rgba(44, 57, 67, 0.6) inset;
+        top: 0;
+        left: 0;
+    }
+
+    .image-container::after{
+        content: "";
+        width: 445px;
+        height: 350px;
+        position: absolute;
+        border-radius: 1% 1% 15% 1%;
+        box-shadow: 0px -100px 69px -63px rgba(44, 57, 67, 0.6) inset;
+        top: 0;
+        left: 0;
+    }
+
+    .name-place{
+        font-size: 26px;
+        color: #fff;
+        position: absolute;
+        margin: 0 0 0 20px;
+        bottom: 425px;
+    }
+
+    .street-name-place{
+        font-size: 18px;
+        font-weight: 250px;
+        /* color: #72727E; */
+        color: #eeeeee;
+        position: absolute;
+        margin: 0 0 0 45px;
+        bottom: 395px;
+    }
+
+    .street-name-place::before{
+        content: '';
+        display: flex;
+        position: absolute;
+        background-image: url("../static/images/icons/markerLocationIcon.png");
+        background-repeat: no-repeat;
+        bottom: 4px;
+        left: -25px;
+        width: 20px;
+        height: 20px;
+        background-size: 20px 20px;
+    }
+
+    .button-heart{
+        border: none;
+        background-image: url("../static/images/icons/heartIconGrey.png");
+        background-color: transparent;
+        width: 30px;
+        height: 30px;
+        margin: 10px 0 0 30px;
+        position: absolute;
+        background-size: cover;
+        top: 265px;
+        right: 20px;
+        padding: 0;
+    }
+
+    .chager-buttons{
+        width: 445px;
+        height: 75px;
+        margin-bottom: 5px;
+    }
+
+    .list-buttons-changer{
+        top: 360px;
+        gap: 10px;
+        padding-left: 5px;
+        display: flex;
+        align-items: center;
+        position: absolute;
+        justify-items: center;
+    }
+
+    .item-button-changer{
+        width: 130px;
+        height: 50px;
+    }
+
+    .button-with-information{
+        border: none;
+        width: 120px;
+        height: 50px;
+        color: #141B41;
+        font-size: 18px;
+        font-weight: 500;
+        padding: 0;
+        background-color: transparent;
+    }
+
+    .button-with-information-changed{
+        border: none;
+        background-color: transparent;
+        width: 120px;
+        height: 50px;
+        color: #72727E;
+        font-size: 18px;
+        font-weight: 500;
+        opacity: 0.5;
+    }
+
+    .button-with-information::after{
+        content: "";
+        border-radius: 30px;
+        background-image: url("../static/images/icons/lineIcon.png");
+        background-size: 30px 20px;
+        width: 30px;
+        height: 20px;
+        top: 40px;
+        left: 50px;
+        background-repeat: no-repeat;
+        display: flex;
+        position: absolute;
+    }
+
+    .button-with-images{
+        border: none;
+        background-color: transparent;
+        width: 120px;
+        height: 50px;
+        color: #72727E;
+        font-size: 18px;
+        font-weight: 500;
+        padding: 0;
+        opacity: 0.5;
+    }
+
+    .button-with-images-changed{
+        border: none;
+        width: 120px;
+        height: 50px;
+        color: #141B41;
+        font-size: 18px;
+        font-weight: 500;
+        background-color: transparent;
+    }
+
+    .button-with-images::after{
+        content: "";
+        border-radius: 30px;
+        background-image: url("../static/images/icons/lineIcon.png");
+        background-size: 30px 20px;
+        width: 30px;
+        height: 20px;
+        top: 40px;
+        left: 282px;
+        background-repeat: no-repeat;
+        display: none;
+        position: absolute;
+    }
+
+    .all-information{
+        width: 445px;
+    }
+
+    .list-stars{
+        bottom: 230px;
+        position: absolute;
+        display: flex;
+        gap: 5px;
+        padding-left: 20px;
+        margin-top: 0;
+        margin-bottom: 10px;
+    }
+
+    .star-icon-item{
+        width: 20px;
+        height: 20px;
+    }
+
+    .score-count-label{
+        margin: 2px 0 0 20px;
+        color: #141B41;
+        font-weight: 500;
+    }
+
+    .views-count-label{
+        margin: 3px 0 0 0;
+        color: #72727E;
+        font-size: 14px;
+        font-weight: 500;
+        opacity: 0.5;
+    }
+
+    .main-information-about-place{
+        text-align: justify;
+        padding-left: 10px;
+        position: absolute;
+        width: 415px;
+        height: 225px;
+        margin: 0;
+        overflow-y: scroll;
+        bottom: 0;
+        text-indent: 10px;
+    }
+}
+
+@media (max-width: 375px){
+
+    .arrow-back-page{
+        border: none;
+        background-color: transparent;
+        background-image: url("../static/images/icons/arrowLeftIcon.png");
+        background-size: 40px 35px;
+        position: absolute;
+        top: 0px;
+        left: 0px;
+        padding: 0;
+        width: 40px;
+        height: 35px;
+    }
+
+    .main-image-with-name{
+        width: 375px;
+        height: 305px;
+        margin-bottom: 5px;
+    }
+
+    .main-image-place{
+        width: 375px;
+        height: 300px;
+        position: absolute;
+        border-radius: 1% 1% 15% 1%;
+        box-shadow: 0px -100px 69px -63px rgba(44, 57, 67, 0.6) inset;
+        z-index: -1;
+        top: 0;
+        left: 0;
+    }
+
+    .name-place{
+        font-size: 24px;
+        color: #fff;
+        position: absolute;
+        margin: 0 0 0 15px;
+        bottom: 480px;
+    }
+
+    .street-name-place{
+        font-size: 16px;
+        font-weight: 250px;
+        /* color: #72727E; */
+        color: #eeeeee;
+        position: absolute;
+        margin: 0 0 0 35px;
+        bottom: 450px;
+    }
+
+    .street-name-place::before{
+        content: '';
+        display: flex;
+        position: absolute;
+        background-image: url("../static/images/icons/markerLocationIcon.png");
+        background-repeat: no-repeat;
+        bottom: 4px;
+        left: -25px;
+        width: 15px;
+        height: 15px;
+        background-size: 15px 15px;
+    }
+
+    .button-heart{
+        border: none;
+        background-image: url("../static/images/icons/heartIconGrey.png");
+        background-color: transparent;
+        width: 25px;
+        height: 25px;
+        margin: 10px 0 0 30px;
+        position: absolute;
+        background-size: cover;
+        top: 215px;
+        right: 20px;
+        padding: 0;
+    }
+
+    .chager-buttons{
+        width: 445px;
+        height: 75px;
+        margin-bottom: 5px;
+    }
+
+    .list-buttons-changer{
+        top: 310px;
+        gap: 15px;
+        padding-left: 5px;
+        display: flex;
+        align-items: center;
+        position: absolute;
+        justify-items: center;
+    }
+
+    .item-button-changer{
+        width: 100px;
+        height: 50px;
+    }
+
+    .button-with-information{
+        border: none;
+        width: 110px;
+        height: 50px;
+        color: #141B41;
+        font-size: 16px;
+        font-weight: 500;
+        padding: 0;
+        background-color: transparent;
+    }
+
+    .button-with-information-changed{
+        border: none;
+        background-color: transparent;
+        width: 120px;
+        height: 50px;
+        color: #72727E;
+        font-size: 16px;
+        font-weight: 500;
+        opacity: 0.5;
+    }
+
+    .button-with-information::after{
+        content: "";
+        border-radius: 30px;
+        background-image: url("../static/images/icons/lineIcon.png");
+        background-size: 30px 20px;
+        width: 30px;
+        height: 20px;
+        top: 40px;
+        left: 45px;
+        background-repeat: no-repeat;
+        display: flex;
+        position: absolute;
+    }
+
+    .button-with-images{
+        border: none;
+        background-color: transparent;
+        width: 100px;
+        height: 50px;
+        color: #72727E;
+        font-size: 16px;
+        font-weight: 500;
+        padding: 0;
+        opacity: 0.5;
+    }
+
+    .button-with-images-changed{
+        border: none;
+        width: 120px;
+        height: 50px;
+        color: #141B41;
+        font-size: 18px;
+        font-weight: 500;
+        background-color: transparent;
+    }
+
+    .button-with-images::after{
+        content: "";
+        border-radius: 30px;
+        background-image: url("../static/images/icons/lineIcon.png");
+        background-size: 30px 20px;
+        width: 30px;
+        height: 20px;
+        top: 40px;
+        left: 282px;
+        background-repeat: no-repeat;
+        display: none;
+        position: absolute;
+    }
+
+    .all-information{
+        width: 445px;
+        height: 370px;
+    }
+
+    .list-stars{
+        bottom: 290px;
+        position: absolute;
+        display: flex;
+        gap: 5px;
+        padding-left: 20px;
+        margin-top: 0;
+        margin-bottom: 10px;
+    }
+
+    .star-icon-item{
+        width: 20px;
+        height: 20px;
+    }
+
+    .score-count-label{
+        margin: 2px 0 0 20px;
+        color: #141B41;
+        font-weight: 500;
+    }
+
+    .views-count-label{
+        margin: 3px 0 0 0;
+        color: #72727E;
+        font-size: 14px;
+        font-weight: 500;
+        opacity: 0.5;
+    }
+
+    .main-information-about-place{
+        text-align: justify;
+        padding-left: 10px;
+        position: absolute;
+        width: 340px;
+        height: 275px;
+        margin: 0;
+        overflow-y: scroll;
+        bottom: 0;
+        text-indent: 10px;
+    }
+}

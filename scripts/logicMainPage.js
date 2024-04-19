@@ -13,7 +13,7 @@ function changeStateOnTrue(){
 
 function changeColorOnHotelButtonFilter(){
     if(isPushedButton[0] === false){
-        document.querySelector(".hotel-button-filter").style.backgroundColor = "#6495ed"
+        document.querySelector(".hotel-button-filter").style.backgroundColor = "#83d350"
         document.querySelector(".hotel-text-button").style.color = "#ffffff"
         $(".hotel-text-button").addClass("hotel-new-icon")
         changeStateOnTrue()
@@ -38,7 +38,7 @@ function changeColorOnHotelButtonFilter(){
 
 function changeColorOnEntertainmentButtonFilter(){
     if(isPushedButton[1] === false){
-        document.querySelector(".entertainment-button-filter").style.backgroundColor = "#6495ed"
+        document.querySelector(".entertainment-button-filter").style.backgroundColor = "#83d350"
         document.querySelector(".entertainment-text-button").style.color = "#ffffff"
         $(".entertainment-text-button").addClass("entertainment-new-icon")
         changeStateOnTrue()
@@ -63,7 +63,7 @@ function changeColorOnEntertainmentButtonFilter(){
 
 function changeColorOnParkButtonFilter(){
     if(isPushedButton[2] === false){
-        document.querySelector(".park-button-filter").style.backgroundColor = "#6495ed"
+        document.querySelector(".park-button-filter").style.backgroundColor = "#83d350"
         document.querySelector(".park-text-button").style.color = "#ffffff"
         $(".park-text-button").addClass("park-new-icon")
         changeStateOnTrue()
@@ -88,7 +88,7 @@ function changeColorOnParkButtonFilter(){
 
 function changeColorOnMallButtonFilter(){
     if(isPushedButton[3] === false){
-        document.querySelector(".malls-button-filter").style.backgroundColor = "#6495ed"
+        document.querySelector(".malls-button-filter").style.backgroundColor = "#83d350"
         document.querySelector(".malls-text-button").style.color = "#ffffff"
         $(".malls-text-button").addClass("malls-new-icon")
         changeStateOnTrue()
@@ -113,7 +113,7 @@ function changeColorOnMallButtonFilter(){
 
 function changeColorOnRestaurantButtonFilter(){
     if(isPushedButton[4] === false){
-        document.querySelector(".restaurant-button-filter").style.backgroundColor = "#6495ed"
+        document.querySelector(".restaurant-button-filter").style.backgroundColor = "#83d350"
         document.querySelector(".restaurant-text-button").style.color = "#ffffff"
         $(".restaurant-text-button").addClass("restaurant-new-icon")
         changeStateOnTrue()
@@ -138,7 +138,7 @@ function changeColorOnRestaurantButtonFilter(){
 
 function changeColorOnTheatreButtonFilter(){
     if(isPushedButton[5] === false){
-        document.querySelector(".theatre-button-filter").style.backgroundColor = "#6495ed"
+        document.querySelector(".theatre-button-filter").style.backgroundColor = "#83d350"
         document.querySelector(".theatre-text-button").style.color = "#ffffff"
         $(".theatre-text-button").addClass("theatre-new-icon")
         changeStateOnTrue()
@@ -163,7 +163,7 @@ function changeColorOnTheatreButtonFilter(){
 
 function changeColorOnMuseumButtonFilter(){
     if(isPushedButton[6] === false){
-        document.querySelector(".museum-button-filter").style.backgroundColor = "#6495ed"
+        document.querySelector(".museum-button-filter").style.backgroundColor = "#83d350"
         document.querySelector(".museum-text-button").style.color = "#ffffff"
         $(".museum-text-button").addClass("museum-new-icon")
         changeStateOnTrue()
@@ -188,7 +188,7 @@ function changeColorOnMuseumButtonFilter(){
 
 function changeColorOnMomumentButtonFilter(){
     if(isPushedButton[7] === false){
-        document.querySelector(".monument-button-filter").style.backgroundColor = "#6495ed"
+        document.querySelector(".monument-button-filter").style.backgroundColor = "#83d350"
         document.querySelector(".monument-text-button").style.color = "#ffffff"
         $(".monument-text-button").addClass("monument-new-icon")
         changeStateOnTrue()
