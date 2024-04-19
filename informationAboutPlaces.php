@@ -14,18 +14,15 @@
     <title>Поиск мест</title>
 </head>
 <body>
-    <header>
+    <header class="headerPage" >
         <a href="searchPage.php"><button class="arrow-back-page"></button></a>
+        <img class="main-image-place" src="static/images/mallsPlaces/cityMallMain.png" alt="">
+        <h1 class="name-place">Гостиный двор</h1>
+        <p class="street-name-place">Верхнеторговая площадь 1</p>
+        <button class="button-heart"></button>
     </header>
 
     <main>
-        <section class="main-image-with-name">
-            <img class="main-image-place" src="static/images/mallsPlaces/cityMallMain.png" alt="">
-            <h1 class="name-place">Гостиный двор</h1>
-            <p class="street-name-place">Верхнеторговая площадь 1</p>
-            <button class="button-heart"></button>
-        </section>
-
         <section class="chager-buttons">
             <ul class="list-buttons-changer">
                 <li class="item-button-changer"><button class="button-with-information">Обзор</button></li>
@@ -45,7 +42,10 @@
                 <li class="views-count-item"><p class="views-count-label">(3462 отзыва)</p></li>
             </ul>
 
-            <p class="main-information-about-place">ГОСТИНЫЙ ДВОР расположен в историческом центре Уфы.</br> Первые торговые ряды на месте современного Гостиного Двора появились еще в 1864 году. На площади проходили ярмарки, базары, народные гуляния.</br> С тех пор Гостиный Двор претерпевал множество изменений и реконструкций и неизменно был связан с историей самого города.</br> Гостиный Двор – больше, чем торговый комплекс. Это объект культурного наследия и сосредоточение культурной и общественной жизни. Первый фудмолл «Гастрономика», множество ресторанов, баров, развлечений, сувенирных магазинов, каток. Гостиный Двор – излюбленное место для встреч и прогулок.</p></p>
+            <p class="main-information-about-place">Гостиный двор расположен в историческом центре Уфы.</br></p>
+            <p class="main-information-about-place" > Первые торговые ряды на месте современного Гостиного Двора появились еще в 1864 году. На площади проходили ярмарки, базары, народные гуляния.</br></p>
+            <p class="main-information-about-place"> С тех пор Гостиный Двор претерпевал множество изменений и реконструкций и неизменно был связан с историей самого города.</br></p>
+            <p class="main-information-about-place">Гостиный Двор – больше, чем торговый комплекс. Это объект культурного наследия и сосредоточение культурной и общественной жизни. Первый фудмолл «Гастрономика», множество ресторанов, баров, развлечений, сувенирных магазинов, каток. Гостиный Двор – излюбленное место для встреч и прогулок.</p>
         </section>
     </main>
 </body>
