@@ -14,7 +14,7 @@
     <title>Уведомления</title>
 </head>
 <body>
-    <h3 class="main-notification">У пока нету новых сообщений!</h3>
+    <h3 class="main-notification">Нету новых сообщений!</h3>
 
     <footer class="footer-main-page">
         <ul class="footer-list">

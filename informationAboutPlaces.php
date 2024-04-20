@@ -11,6 +11,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Fira+Mono:wght@400;500;700&family=Oswald:wght@200..700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="static/resetStyles.css">
     <link rel="stylesheet" href="static/informationAboutPlacesStyle.css">
+    <script src="scripts/addLovelyPlace.js"></script>
     <title>Поиск мест</title>
 </head>
 <body>
@@ -19,7 +20,7 @@
         <img class="main-image-place" src="static/images/mallsPlaces/cityMallMain.png" alt="">
         <h1 class="name-place">Гостиный двор</h1>
         <p class="street-name-place">Верхнеторговая площадь 1</p>
-        <button class="button-heart"></button>
+        <button class="button-heart" onclick="changeImage()"></button>
     </header>
 
     <main>

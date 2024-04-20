@@ -1,8 +1,8 @@
 @media (max-width: 445px) {
     .main-notification{
         text-align: center;
-        font-size: 20px;
-        font-weight: 350;
+        font-size: 18px;
+        font-weight: 400;
         color: #72727E;
         vertical-align: middle;
     }

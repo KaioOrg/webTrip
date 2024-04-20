@@ -72,6 +72,20 @@ body{
         padding: 0;
     }
 
+    .button-heart-changed{
+        border: none;
+        background-image: url("../static/images/icons/heartIconFull.png");
+        background-color: transparent;
+        width: 30px;
+        height: 30px;
+        margin: 10px 0 0 30px;
+        position: absolute;
+        background-size: cover;
+        top: 175px;
+        right: 20px;
+        padding: 0;
+    }
+
     .list-buttons-changer{
         gap: 10px;
         padding-left: 5px;
@@ -187,12 +201,16 @@ body{
 
     .main-information-about-place{
         text-align: justify;
+        font-size: 14px;
+        color: #141B41;
+        font-weight: 500;
         padding-left: 10px;
         padding-right: 10px;
         margin: 0;
         overflow-y: scroll;
         bottom: 0;
         text-indent: 15px;
+        overflow-y: scroll;
     }
 }
 
@@ -368,6 +386,7 @@ body{
     .score-count-label{
         margin: 2px 0 0 20px;
         color: #141B41;
+        font-size: 14px;
         font-weight: 500;
     }
 
@@ -381,6 +400,9 @@ body{
 
     .main-information-about-place{
         text-align: justify;
+        font-size: 12px;
+        font-weight: 500;
+        color: #141B41;
         padding-left: 10px;
         padding-right: 10px;
         margin: 0;

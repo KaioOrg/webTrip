@@ -18,7 +18,7 @@
 <body>
 <header class="header-search-page">
     <a href="#"><img class="image-user" src="static/images/icons/userIcon2.png" alt=""></a>
-    <a href="#"><img class="notifications-icon" src="static/images/icons/notificationIconFull.png" alt=""></a>
+    <a href="notificationsPage.php"><img class="notifications-icon" src="static/images/icons/notificationIconFull.png" alt=""></a>
     <h2 class="nameSearchPage">Поиск</h2>
     <!-- <form action="" method="get">
         <input id="searchBox" oninput="liveSearch()" placeholder="Поиск места..." type="search">
