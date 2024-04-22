@@ -17,7 +17,7 @@
 </head>
 <body>
 <header class="header-search-page">
-    <a href="#"><img class="image-user" src="static/images/icons/userIcon2.png" alt=""></a>
+    <a href="config/database.php"><img class="image-user" src="static/images/icons/userIcon2.png" alt=""></a>
     <a href="notificationsPage.php"><img class="notifications-icon" src="static/images/icons/notificationIconFull.png" alt=""></a>
     <h2 class="nameSearchPage">Поиск</h2>
     <!-- <form action="" method="get">

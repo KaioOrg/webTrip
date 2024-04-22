@@ -1,13 +1,14 @@
 <?php 
 $labelsPlaces = array(
-    'Парк Победы'=> array('parksPlaces/parkVictory.png', ' Комарова 7', '4,8'),
-    'Парк имени Якутова'=> array('parksPlaces/yakutovPark.png', ' Ленина 65/3', '4,3'),
-    'Парк Кашкадан'=> array('parksPlaces/parkKashkadan.png', ' Маршала Жукова 31', '4,6'),
+    'Парк Победы'=> array('parksPlaces/parkVictory.png', ' Комарова 7', '4,8', 'information_4'),
+    'Парк имени Якутова'=> array('parksPlaces/yakutovPark.png', ' Ленина 65/3', '4,3', 'information_7'),
+    'Парк Кашкадан'=> array('parksPlaces/parkKashkadan.png', ' Маршала Жукова 31', '4,6', 'information_18'),
 );?>
 <ul class="list-parks-category">
+<p class="count-finded-places">Фильтр: Парки</p>
     <?php foreach ($labelsPlaces as $name_place => $value){
         ?>
-    <li class="searched-place-item"><a href="backEnd/hotelsCategory.php">
+    <li class="searched-place-item"><a href="../informaitionAboutPlaces/<?php echo $value[3]?>.php">
         <img class="items-image-places" src="static/images/<?php echo $value[0]?>" alt="">
         <h4 class="name-place-section-all-places"><?php echo $name_place?></h4>
         <p class="name-street-place">Уфа, <?php echo $value[1]?></p>
@@ -17,7 +18,7 @@ $labelsPlaces = array(
     </li>
         <?php
         } ?>
-    <li class="searched-place-item"><a href="backEnd/hotelsCategory.php">
+    <li class="searched-place-item"><a href="../informaitionAboutPlaces/information_39.php">
         <img class="items-image-places" src="static/images/parksPlaces/vatanPark.png" alt="">
             <h4 class="name-place-section-all-places">Этнический парк Ватан</h4>
             <p class="name-street-place">Уфа, Заки Валиди 2А</p>
@@ -25,7 +26,7 @@ $labelsPlaces = array(
     </a>
     <!-- <button class="button-heart" type="submit"></button> -->
     </li>
-    <li class="searched-place-item"><a href="backEnd/hotelsCategory.php">
+    <li class="searched-place-item"><a href="../informaitionAboutPlaces/information_40.php">
         <img class="items-image-places" src="static/images/parksPlaces/woodPark.png" alt="">
             <h4 class="name-place-section-all-places">Парк Лесоводов Башкирии</h4>
             <p class="name-street-place little-street-name">Уфа, лесопарк им. Лесоводов Башкирии</p>
@@ -33,7 +34,7 @@ $labelsPlaces = array(
     </a>
     <!-- <button class="button-heart" type="submit"></button> -->
     </li>
-    <li class="searched-place-item"><a href="backEnd/hotelsCategory.php">
+    <li class="searched-place-item"><a href="../informaitionAboutPlaces/information_56.php">
          <img class="items-image-places" src="static/images/parksPlaces/gardenAksakova.png" alt="">
             <h4 class="name-place-section-all-places">Сад культуры и отдыха им. Аксакова</h4>
             <p class="name-street-place little-street-name">Уфа, сад культуры и отдыха им. Аксакова</p>
@@ -41,7 +42,7 @@ $labelsPlaces = array(
     </a>
     <!-- <button class="button-heart" type="submit"></button> -->
     </li>
-    <li class="searched-place-item"><a href="backEnd/hotelsCategory.php">
+    <li class="searched-place-item"><a href="../informaitionAboutPlaces/information_57.php">
          <img class="items-image-places" src="static/images/parksPlaces/gardenSalavat.png" alt="">
             <h4 class="name-place-section-all-places">Сад имени Салавата Юлаева</h4>
             <p class="name-street-place">Уфа, Салавата 22</p>
@@ -49,7 +50,7 @@ $labelsPlaces = array(
     </a>
     <!-- <button class="button-heart" type="submit"></button> -->
     </li>
-    <li class="searched-place-item"><a href="backEnd/hotelsCategory.php">
+    <li class="searched-place-item"><a href="../informaitionAboutPlaces/information_58.php">
          <img class="items-image-places" src="static/images/parksPlaces/matrosovaPark.png" alt="">
             <h4 class="name-place-section-all-places">Сад Александра Матросова</h4>
             <p class="name-street-place">Уфа, Тукаева 23</p>
@@ -57,7 +58,7 @@ $labelsPlaces = array(
     </a>
     <!-- <button class="button-heart" type="submit"></button> -->
     </li>
-    <li class="searched-place-item"><a href="backEnd/hotelsCategory.php">
+    <li class="searched-place-item"><a href="../informaitionAboutPlaces/information_59.php">
          <img class="items-image-places" src="static/images/parksPlaces/gafuriPark.png" alt="">
             <h4 class="name-place-section-all-places">Центральный парк им. М.Гафури</h4>
             <p class="name-street-place">Уфа, просп. Октября 77/2в</p>

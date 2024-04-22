@@ -25,25 +25,69 @@
         <section>
             <h3 class="label-section-categories">Категории</h3>
             <ul class="categories">
-                <li ><a class="category-item" href=""><img class="icon-category" src="static/images/icons/parksIcon.png">Парки</a></li>
-                <li ><a class="category-item" href=""><img class="icon-category" src="static/images/icons/entartainmentIcon2.png">Развлечения</a></li>
-                <li ><a class="category-item" href=""><img class="icon-category" src="static/images/icons/hotelIcon.png">Отели</a></li>
-                <li ><a class="category-item" href=""><img class="icon-category" src="static/images/icons/mallsIcon.png">Торговые центры</a></li>
-                <li ><a class="category-item" href=""><img class="icon-category" src="static/images/icons/restaurantIcon2.png">Рестораны</a></li>
-                <li ><a class="category-item" href=""><img class="icon-category" src="static/images/icons/theatreIconMain.png">Театры</a></li>
-                <li ><a class="category-item" href=""><img class="icon-category" src="static/images/icons/museumIcon.png">Музеи</a></li>
-                <li ><a class="category-item" href=""><img class="icon-category" src="static/images/icons/monumentIcon.png">Памятники</a></li>
+                <li ><a class="category-item" href="searchPage.php" onclick="selectParksCategory()"><img class="icon-category" src="static/images/icons/parksIcon.png">Парки</a></li>
+                <li ><a class="category-item" href="searchPage.php" onclick="selectEntertainmentsCategory()" ><img class="icon-category" src="static/images/icons/entartainmentIcon2.png">Развлечения</a></li>
+                <li ><a class="category-item" href="searchPage.php" onclick="selectHotelsCategory()" ><img class="icon-category" src="static/images/icons/hotelIcon.png">Отели</a></li>
+                <li ><a class="category-item" href="searchPage.php" onclick="selectMallsCategory()" ><img class="icon-category" src="static/images/icons/mallsIcon.png">Торговые центры</a></li>
+                <li ><a class="category-item" href="searchPage.php" onclick="selectRestaurantsCategory()"><img class="icon-category" src="static/images/icons/restaurantIcon2.png">Рестораны</a></li>
+                <li ><a class="category-item" href="searchPage.php" onclick="selectTheatresCategory()"><img class="icon-category" src="static/images/icons/theatreIconMain.png">Театры</a></li>
+                <li ><a class="category-item" href="searchPage.php" onclick="selectMuseumsCategory()"><img class="icon-category" src="static/images/icons/museumIcon.png">Музеи</a></li>
+                <li ><a class="category-item" href="searchPage.php" onclick="selectMonumentsCategory()"><img class="icon-category" src="static/images/icons/monumentIcon.png">Памятники</a></li>
             </ul>
         </section>
 
+        <script type="text/javascript">
+            let isPushedForChange = [false, false, false, false, false, false, false, false]
+
+            function selectParksCategory(){
+                isPushedForChange[0] = true
+                localStorage.setItem('isPushedForChangeParks', isPushedForChange[0])
+            }
+
+            function selectEntertainmentsCategory(){
+                isPushedForChange[1] = true
+                localStorage.setItem('isPushedForChangeEntertainments', isPushedForChange[1])
+            }
+
+            function selectHotelsCategory(){
+                isPushedForChange[2] = true
+                localStorage.setItem('isPushedForChangeHotels', isPushedForChange[2])
+            }
+
+            function selectMallsCategory(){
+                isPushedForChange[3] = true
+                localStorage.setItem('isPushedForChangeMalls', isPushedForChange[3])
+            }
+
+            function selectRestaurantsCategory(){
+                isPushedForChange[4] = true
+                localStorage.setItem('isPushedForChangeRestaurants', isPushedForChange[4])
+            }
+
+            function selectTheatresCategory(){
+                isPushedForChange[5] = true
+                localStorage.setItem('isPushedForChangeTheatres', isPushedForChange[5])
+            }
+
+            function selectMuseumsCategory(){
+                isPushedForChange[6] = true
+                localStorage.setItem('isPushedForChangeMuseums', isPushedForChange[6])
+            }
+
+            function selectMonumentsCategory(){
+                isPushedForChange[7] = true
+                localStorage.setItem('isPushedForChangeMonuments', isPushedForChange[7])
+            }
+        </script>
+
         <section class="hot-places">
             <h3 class="name-hot-places">Популярные места</h3>
-            <a href="category-filters.php"><p class="text-see-all-places">Все</p></a>
+            <a href="searchPage.php"><p class="text-see-all-places">Все</p></a>
             <div class="card-gradient">
             </div>
             <ul class="hot-places-list">
                 <li class="hot-places-item">
-                    <a href="#">
+                    <a href="informaitionAboutPlaces/information_12.php">
                         <div class="first-image-place">
                             <img class="image-place" src="" alt="">
                             <div class="text-name-place">
@@ -56,7 +100,7 @@
                     </a>
                 </li>
                 <li class="hot-places-item">
-                    <a href="#">
+                    <a href="informaitionAboutPlaces/information_34.php">
                         <div class="second-image-place">
                             <img class="image-place" src="" alt="">
                             <div class="text-name-place">
@@ -69,20 +113,20 @@
                     </a>
                 </li>
                 <li class="hot-places-item">
-                    <a href="#">
+                    <a href="informaitionAboutPlaces/information_17.php">
                         <div class="third-image-place">
                             <img class="image-place" src="" alt="">
                             <div class="text-name-place">
-                                Фонтан Семь девушек
+                                Памятник дворнику
                             </div>
                             <div class="score-text icon-loc-place">
-                                4,8
+                                4,5
                             </div>
                         </div>
                     </a>
                 </li>
                 <li class="hot-places-item">
-                    <a href="#">
+                    <a href="informaitionAboutPlaces/informationAboutPlaces.php">
                         <div class="fourth-image-place">
                             <img class="image-place" src="" alt="">
                             <div class="text-name-place">
