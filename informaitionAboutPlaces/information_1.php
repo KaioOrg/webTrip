@@ -24,13 +24,13 @@
     </header>
 
     <main>
-        <!-- <section class="chager-buttons"> -->
-            <!-- <ul class="list-buttons-changer"> -->
-                <!-- <li class="item-button-changer"><button class="button-with-information">Обзор</button></li> -->
-                <!-- <li class="item-button-changer" ><button class="button-with-images">Фотографии</button></li>
-                <li class="item-button-changer" ><button class="button-with-images">На карте</button></li> -->
-            <!-- </ul> -->
-        <!-- </section> -->
+        <!-- <section class="chager-buttons">
+            <ul class="list-buttons-changer">
+                <li class="item-button-changer"><button class="button-with-information">Обзор</button></li>
+                <li class="item-button-changer" ><button class="button-with-images">Фотографии</button></li>
+                <li class="item-button-changer" ><button class="button-with-images">На карте</button></li>
+            </ul>
+        </section> -->
 
         <section class="all-information">
             <ul class="list-stars">
