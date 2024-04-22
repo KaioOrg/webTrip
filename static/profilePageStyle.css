@@ -116,6 +116,34 @@
     }
 }
 
+@media (max-width: 425px){
+
+    .saved-places::before{
+        content: '';
+        display: flex;
+        position: absolute;
+        background-image: url("../static/images/icons/heartIcon.png");
+        background-repeat: no-repeat;
+        background-size: 25px 25px;
+        width: 25px;
+        height: 25px;
+        left: 120px;
+    }
+
+    .location::before{
+        content: '';
+        display: flex;
+        position: absolute;
+        background-image: url("../static/images/icons/markerLocationIconGreen.png");
+        background-repeat: no-repeat;
+        bottom: 3px;
+        right: 125px;
+        width: 20px;
+        height: 20px;
+        background-size: 20px 20px;
+    }
+}
+
 @media (max-width: 375px){
     .header-search-page{
         position: relative;

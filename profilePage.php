@@ -7,7 +7,7 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <script defer src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
     <script src="scripts/logicMainPage.js"></script>
-    <script src="scripts/addLovelyPlace.js"></script>
+    <script src="scripts/createAlert.js"></script>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Fira+Mono:wght@400;500;700&family=Oswald:wght@200..700&display=swap" rel="stylesheet">
@@ -22,7 +22,7 @@
     <img class="background-profile" src="static/images/icons/backgroundProfile.png" alt="">
     <img class="user-icon" src="static/images/icons/userIcon.png" alt="">
     <h4 class="name-user">user001</h4>
-    <button class="edit-button">Редактировать</button>
+    <button class="edit-button" onclick="alertA()">Редактировать</button>
     <div>
         <p class="about-user">Информация о себе</p>
     </div>

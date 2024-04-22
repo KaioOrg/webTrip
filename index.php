@@ -17,7 +17,7 @@
 <body>
     <header>
         <a href="#"><img class="image-menu-bar" src="static/images/icons/menuBarIcon.png" alt=""></a>
-        <a href="#"><img class="image-user" src="static/images/icons/userIcon2.png" alt=""></a>
+        <a href="profilePage.php"><img class="image-user" src="static/images/icons/userIcon2.png" alt=""></a>
         <h2 class="namePage">Отправляйтесь в путешествие вместе с нашим приложением</h2>
     </header>
 
@@ -25,7 +25,7 @@
         <section>
             <h3 class="label-section-categories">Категории</h3>
             <ul class="categories">
-                <li ><a class="category-item" href="searchPage.php" onclick="selectParksCategory()"><img class="icon-category" src="static/images/icons/parksIcon.png">Парки</a></li>
+                <li ><a class="category-item" onclick="selectParksCategory()" href="searchPage.php"><img class="icon-category" src="static/images/icons/parksIcon.png">Парки</a></li>
                 <li ><a class="category-item" href="searchPage.php" onclick="selectEntertainmentsCategory()" ><img class="icon-category" src="static/images/icons/entartainmentIcon2.png">Развлечения</a></li>
                 <li ><a class="category-item" href="searchPage.php" onclick="selectHotelsCategory()" ><img class="icon-category" src="static/images/icons/hotelIcon.png">Отели</a></li>
                 <li ><a class="category-item" href="searchPage.php" onclick="selectMallsCategory()" ><img class="icon-category" src="static/images/icons/mallsIcon.png">Торговые центры</a></li>
